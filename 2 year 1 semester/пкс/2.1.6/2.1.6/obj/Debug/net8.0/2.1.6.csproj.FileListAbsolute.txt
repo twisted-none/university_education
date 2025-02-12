@@ -1,0 +1,15 @@
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\bin\Debug\net8.0\2.1.6.exe
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\bin\Debug\net8.0\2.1.6.deps.json
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\bin\Debug\net8.0\2.1.6.runtimeconfig.json
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\bin\Debug\net8.0\2.1.6.dll
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\bin\Debug\net8.0\2.1.6.pdb
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\2.1.6.GeneratedMSBuildEditorConfig.editorconfig
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\2.1.6.AssemblyInfoInputs.cache
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\2.1.6.AssemblyInfo.cs
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\2.1.6.csproj.CoreCompileInputs.cache
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\2.1.6.sourcelink.json
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\2.1.6.dll
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\refint\2.1.6.dll
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\2.1.6.pdb
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\2.1.6.genruntimeconfig.cache
+D:\2-year-1-semester\пкс\2.1.6\2.1.6\obj\Debug\net8.0\ref\2.1.6.dll

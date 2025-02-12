@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "M3hbE+Can4U=",
+  "success": true,
+  "projectFilePath": "D:\\2-year-1-semester\\пкс\\2.2\\2.2\\2.2.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша D:\\2-year-1-semester\\пкс\\2.2\\2.2\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+}

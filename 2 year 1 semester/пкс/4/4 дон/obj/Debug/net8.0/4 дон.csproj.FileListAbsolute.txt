@@ -1,0 +1,30 @@
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\4 дон.GeneratedMSBuildEditorConfig.editorconfig
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\4 дон.AssemblyInfoInputs.cache
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\4 дон.AssemblyInfo.cs
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\4 дон.csproj.CoreCompileInputs.cache
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\4 дон.sourcelink.json
+D:\2-year-1-semester\пкс\4 дон\4 дон\bin\Debug\net8.0\4 дон.exe
+D:\2-year-1-semester\пкс\4 дон\4 дон\bin\Debug\net8.0\4 дон.deps.json
+D:\2-year-1-semester\пкс\4 дон\4 дон\bin\Debug\net8.0\4 дон.runtimeconfig.json
+D:\2-year-1-semester\пкс\4 дон\4 дон\bin\Debug\net8.0\4 дон.dll
+D:\2-year-1-semester\пкс\4 дон\4 дон\bin\Debug\net8.0\4 дон.pdb
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\4 дон.dll
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\refint\4 дон.dll
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\4 дон.pdb
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\4 дон.genruntimeconfig.cache
+D:\2-year-1-semester\пкс\4 дон\4 дон\obj\Debug\net8.0\ref\4 дон.dll
+D:\2-year-1-semester\пкс\4\4 дон\bin\Debug\net8.0\4 дон.exe
+D:\2-year-1-semester\пкс\4\4 дон\bin\Debug\net8.0\4 дон.deps.json
+D:\2-year-1-semester\пкс\4\4 дон\bin\Debug\net8.0\4 дон.runtimeconfig.json
+D:\2-year-1-semester\пкс\4\4 дон\bin\Debug\net8.0\4 дон.dll
+D:\2-year-1-semester\пкс\4\4 дон\bin\Debug\net8.0\4 дон.pdb
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\4 дон.GeneratedMSBuildEditorConfig.editorconfig
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\4 дон.AssemblyInfoInputs.cache
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\4 дон.AssemblyInfo.cs
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\4 дон.csproj.CoreCompileInputs.cache
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\4 дон.sourcelink.json
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\4 дон.dll
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\refint\4 дон.dll
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\4 дон.pdb
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\4 дон.genruntimeconfig.cache
+D:\2-year-1-semester\пкс\4\4 дон\obj\Debug\net8.0\ref\4 дон.dll

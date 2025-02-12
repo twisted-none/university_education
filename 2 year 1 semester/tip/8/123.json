@@ -1,0 +1,19 @@
+{
+    "birthDate": "01.01.2001",
+    "email": "a@gmail.com",
+    "fullName": "Ааа Ааа Абвич",
+    "gender": "male",
+    "nameDetails": {
+        "firstName": "Ааа",
+        "patronymic": "Аавич",
+        "surname": "Ааа"
+    },
+    "passport": "1111 111111",
+    "passportDetails": {
+        "number": "111111",
+        "series": "1111"
+    },
+    "phone": "+7-978-000-00-00",
+    "snils": "111-111-111 11",
+    "username": "Ddd"
+}

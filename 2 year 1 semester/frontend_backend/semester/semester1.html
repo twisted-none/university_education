@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Первый семестр</title>
+    <!-- Подключение Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="py-3 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <img src="logo.png" alt="Логотип" height="50">
+                </div>
+                <div class="col">
+                    <h1 class="h4 mb-0" id="main-title">Швецов Демьян Андреевич</h1>
+                    <p class="mb-0 paragraph">Группа ЭФБО-09-23</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../main/index.html">Главная</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            Семестры
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../semester/semester1.html">Первый семестр</a></li>
+                            <li><a class="dropdown-item" href="#semester2">Второй семестр</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../services/services.html">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#auth">Авторизация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+        <section id="semester1" class="mb-5">
+            <h2 class="mb-4">Первый семестр</h2>
+
+            <!-- Форма для отметки посещаемости -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Форма учета посещаемости</h3>
+                    <form id="attendanceForm" class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="studentName" class="form-label">ФИО студента</label>
+                                <input type="text" class="form-control" id="studentName" required>
+                                <div class="invalid-feedback">
+                                    Пожалуйста, введите ФИО
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="groupNumber" class="form-label">Номер группы</label>
+                                <input type="text" class="form-control" id="groupNumber" required>
+                                <div class="invalid-feedback">
+                                    Пожалуйста, введите номер группы
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lessonDate" class="form-label">Дата занятия</label>
+                                <input type="date" class="form-control" id="lessonDate" required>
+                                <div class="invalid-feedback">
+                                    Пожалуйста, выберите дату
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lessonType" class="form-label">Тип занятия</label>
+                                <select class="form-select" id="lessonType" required>
+                                    <option value="">Выберите тип занятия</option>
+                                    <option value="lecture">Лекция</option>
+                                    <option value="practice">Практическое занятие</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Пожалуйста, выберите тип занятия
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="comment" class="form-label">Комментарий</label>
+                                <textarea class="form-control" id="comment" rows="3"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+    <!-- Таблицы -->
+    <button id="toggleLectures" class="btn btn-primary mt-3">Показать лекции</button>
+
+<!-- Таблица с лекциями, изначально скрыта -->
+		<div id="lectures-table" class="mt-3">
+			<h3>Лекции</h3>
+			<div class="table-responsive">
+				<table class="table table-hover">
+					<thead class="table-light">
+						<tr>
+							<th>№</th>
+							<th>Тема</th>
+							<th>Отметка о посещении</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Основы языка HTML</td>
+							<td class="attendance-cell"></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Углубленное изучение HTML</td>
+							<td class="attendance-cell"></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Таблицы и формы</td>
+							<td class="attendance-cell"></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Адаптивная верстка. Flexbox и Grid Layout</td>
+							<td class="attendance-cell"></td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>Bootstrap — работа с фреймворком</td>
+							<td class="attendance-cell"></td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>Основы языка JavaScript</td>
+							<td class="attendance-cell"></td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>Работа с DOM и событиями в JavaScript</td>
+							<td class="attendance-cell"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+                <div class="col-md-6 mb-4">
+                    <h2 class="mb-4">Первый семестр</h2>
+			<div class="table-responsive">
+				<table id="practices-table" class="table table-hover">
+					<thead class="table-light">
+						<tr>
+							<th>№</th>
+							<th>Тема</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td>1</td><td>Основы языка HTML</td></tr>
+						<tr><td>2</td><td>Формы и элементы HTML5</td></tr>
+					</tbody>
+				</table>
+        </div>
+                </div>
+				<button id="view-second-semester" class="btn btn-primary mt-3">Посмотреть практики второго семестра</button>
+
+				<div class="mt-5">
+					<img src="student.jpg" alt="Фото студента" class="student-photo" id="student-photo">
+				</div>
+            </div>
+
+            <!-- Встроенные элементы -->
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Учебные материалы</h3>
+                            <div class="embed-responsive mb-3">
+                                <iframe src="program.pdf" width="100%" height="500px"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Расписание занятий</h3>
+                            <p>Учебные занятия проходят по адресу: проспект Вернадского, д. 78, РТУ МИРЭА</p>
+                            <div id="map" style="width: 100%; height: 400px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p>© Швецов Демьян Андреевич, 2024</p>
+                    <div class="social-icons">
+                        <a href="https://vk.com/twistednone" target="_blank" class="btn btn-outline-primary">VK</a>
+                        <a href="https://t.me/twistednone" target="_blank" class="btn btn-outline-info">Telegram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTop" class="btn btn-primary rounded-circle">↑</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш_ключ&lang=ru_RU"></script>
+    <script src="script.js"></script>
+</body>
+</html>
