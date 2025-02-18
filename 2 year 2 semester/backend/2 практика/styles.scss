@@ -1,0 +1,15 @@
+@use "sass:color";
+
+$primary-color: #007bff;
+$font-stack: Arial, sans-serif;
+
+body {
+    font-family: $font-stack;
+}
+
+button {
+    background-color: $primary-color;
+    &:hover {
+        background-color: color.scale($primary-color, $lightness: -40%);
+    }
+}
