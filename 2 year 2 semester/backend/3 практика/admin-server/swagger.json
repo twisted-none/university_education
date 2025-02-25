@@ -1,0 +1,322 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "API Интернет-магазина",
+      "description": "API для панели администратора интернет-магазина",
+      "version": "1.0.0"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:8080",
+        "description": "Локальный сервер разработки"
+      }
+    ],
+    "tags": [
+      {
+        "name": "products",
+        "description": "Операции с товарами"
+      },
+      {
+        "name": "categories",
+        "description": "Операции с категориями"
+      }
+    ],
+    "paths": {
+      "/api/products": {
+        "get": {
+          "tags": ["products"],
+          "summary": "Получить список всех товаров",
+          "responses": {
+            "200": {
+              "description": "Успешное получение списка товаров",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/ProductsResponse"
+                  }
+                }
+              }
+            },
+            "500": {
+              "description": "Ошибка сервера"
+            }
+          }
+        },
+        "post": {
+          "tags": ["products"],
+          "summary": "Добавить новый товар или товары",
+          "description": "Можно добавить один товар или массив товаров",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/ProductInput"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/ProductInput"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "responses": {
+            "201": {
+              "description": "Товар(ы) успешно добавлен(ы)",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "oneOf": [
+                      {
+                        "$ref": "#/components/schemas/Product"
+                      },
+                      {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/components/schemas/Product"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Недопустимый запрос"
+            },
+            "500": {
+              "description": "Ошибка сервера"
+            }
+          }
+        }
+      },
+      "/api/products/{id}": {
+        "get": {
+          "tags": ["products"],
+          "summary": "Получить товар по ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              },
+              "description": "ID товара"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Успешное получение товара",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              }
+            },
+            "404": {
+              "description": "Товар не найден"
+            },
+            "500": {
+              "description": "Ошибка сервера"
+            }
+          }
+        },
+        "put": {
+          "tags": ["products"],
+          "summary": "Обновить товар по ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              },
+              "description": "ID товара"
+            }
+          ],
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductInput"
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Товар успешно обновлен",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Недопустимый запрос"
+            },
+            "404": {
+              "description": "Товар не найден"
+            },
+            "500": {
+              "description": "Ошибка сервера"
+            }
+          }
+        },
+        "delete": {
+          "tags": ["products"],
+          "summary": "Удалить товар по ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              },
+              "description": "ID товара"
+            }
+          ],
+          "responses": {
+            "204": {
+              "description": "Товар успешно удален"
+            },
+            "404": {
+              "description": "Товар не найден"
+            },
+            "500": {
+              "description": "Ошибка сервера"
+            }
+          }
+        }
+      },
+      "/api/categories": {
+        "get": {
+          "tags": ["categories"],
+          "summary": "Получить список всех категорий",
+          "responses": {
+            "200": {
+              "description": "Успешное получение списка категорий",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Category"
+                    }
+                  }
+                }
+              }
+            },
+            "500": {
+              "description": "Ошибка сервера"
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Product": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer",
+              "description": "Уникальный идентификатор товара"
+            },
+            "name": {
+              "type": "string",
+              "description": "Название товара"
+            },
+            "price": {
+              "type": "number",
+              "format": "float",
+              "description": "Цена товара"
+            },
+            "description": {
+              "type": "string",
+              "description": "Описание товара"
+            },
+            "categories": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Список идентификаторов категорий"
+            }
+          },
+          "required": ["id", "name", "price", "description", "categories"]
+        },
+        "ProductInput": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Название товара"
+            },
+            "price": {
+              "type": "number",
+              "format": "float",
+              "description": "Цена товара"
+            },
+            "description": {
+              "type": "string",
+              "description": "Описание товара"
+            },
+            "categories": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Список идентификаторов категорий"
+            }
+          },
+          "required": ["name", "price", "description", "categories"]
+        },
+        "Category": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Идентификатор категории"
+            },
+            "name": {
+              "type": "string",
+              "description": "Название категории"
+            }
+          },
+          "required": ["id", "name"]
+        },
+        "ProductsResponse": {
+          "type": "object",
+          "properties": {
+            "products": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "categories": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Category"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
