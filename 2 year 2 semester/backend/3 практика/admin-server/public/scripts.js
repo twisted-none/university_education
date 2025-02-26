@@ -118,7 +118,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 return response.json();
             })
-            .then(products => {
+            .then(data => {
+                // Проверяем, есть ли в data свойство products
+                const products = data.products || data;
                 displayProducts(products);
             })
             .catch(error => {
@@ -270,9 +272,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (!response.ok) {
                     throw new Error('Не удалось удалить товар');
                 }
+                // Проверяем, есть ли содержимое для преобразования в JSON
+                if (response.status === 204) {
+                    return null; // Нет содержимого
+                }
                 return response.json();
             })
-            .then(data => {
+            .then(() => {
                 alert('Товар успешно удален!');
                 loadProducts();
             })
@@ -280,5 +286,5 @@ document.addEventListener('DOMContentLoaded', function() {
                 alert('Ошибка: ' + error.message);
             });
         }
-    }
+    }kmk
 });
