@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Ноутбук UltraBook",
+      "price": 89999,
+      "description": "Ультратонкий ноутбук с 16 ГБ оперативной памяти, SSD диском 512 ГБ и IPS экраном 15.6 дюймов",
+      "categories": [
+        "electronics",
+        "computers"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Беспроводные наушники SoundPro",
+      "price": 12999,
+      "description": "Наушники с активным шумоподавлением, временем работы до 30 часов и быстрой зарядкой",
+      "categories": [
+        "electronics"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Спортивные кроссовки RunFast",
+      "price": 8499,
+      "description": "Легкие кроссовки с амортизирующей подошвой и дышащим верхом, идеально для бега",
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Умные часы",
+      "price": 15999,
+      "description": "Водонепроницаемые умные часы с мониторингом пульса, сна и множеством спортивных режимов",
+      "categories": []
+    },
+    {
+      "id": 6,
+      "name": "ыаврлывалырварола",
+      "price": 12333,
+      "description": "asdasd",
+      "categories": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "Электроника"
+    },
+    {
+      "id": "smartphones",
+      "name": "Смартфоны"
+    },
+    {
+      "id": "computers",
+      "name": "Компьютеры"
+    },
+    {
+      "id": "clothing",
+      "name": "Одежда"
+    }
+  ]
+}
