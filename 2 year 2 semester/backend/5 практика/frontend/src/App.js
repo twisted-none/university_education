@@ -1,6 +1,8 @@
+// frontend/src/App.js
 import React, { useState } from 'react';
 import Login from './components/Login';
 import Register from './components/Register';
+import ProtectedPage from './components/ProtectedPage';
 
 function App() {
   const [view, setView] = useState('login');
@@ -36,14 +38,16 @@ function App() {
     }
 
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center">
-        <h2 className="text-2xl mb-4">Вы авторизованы</h2>
-        <button 
-          onClick={handleLogout}
-          className="bg-red-500 text-white px-4 py-2 rounded"
-        >
-          Выйти
-        </button>
+      <div className="min-h-screen">
+        <div className="absolute top-4 right-4">
+          <button 
+            onClick={handleLogout}
+            className="bg-red-500 text-white px-4 py-2 rounded"
+          >
+            Выйти
+          </button>
+        </div>
+        <ProtectedPage token={token} />
       </div>
     );
   };

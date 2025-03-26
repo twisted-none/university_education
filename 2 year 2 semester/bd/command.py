@@ -75,9 +75,91 @@ AND real_estate_id IN (
 
 9.
 SELECT 
-    MAX(DATE_PART('day', sale_date - (SELECT announcement_date FROM real_estate_object WHERE id = sale.real_estate_id)) / 30) AS max_months,
-    MIN(DATE_PART('day', sale_date - (SELECT announcement_date FROM real_estate_object WHERE id = sale.real_estate_id)) / 30) AS min_months
-FROM sale
-WHERE real_estate_id IN (SELECT id FROM real_estate_object);
+    MIN((sale_date - announcement_date) / 7) AS min_sale_duration_weeks,
+    MAX((sale_date - announcement_date) / 7) AS max_sale_duration_weeks
+FROM 
+    sale, real_estate_object
+WHERE 
+    sale.real_estate_id = real_estate_object.id;
+
 
 10.
+SELECT COUNT(*) 
+FROM sale 
+WHERE (SELECT price FROM real_estate_object WHERE id = sale.real_estate_id) * 0.8 > price;
+
+11.
+SELECT 
+    (SUM(price * commission / 100)) AS bonus
+FROM sale
+WHERE realtor_id = (SELECT id FROM realtor WHERE last_name = 'Иванов')
+AND sale_date >= CURRENT_DATE - INTERVAL '1 month';
+
+12.
+SELECT real_estate_id, SUM(area) 
+FROM real_estate_structure 
+GROUP BY real_estate_id;
+
+13.
+SELECT MAX(price / area) 
+FROM real_estate_object
+WHERE type_id = (SELECT id FROM type WHERE name = 'Квартира')
+AND area > 30
+AND district_id = (SELECT id FROM districts WHERE name = 'Южный');
+
+14.
+SELECT COUNT(*) 
+FROM districts
+WHERE name LIKE '%ый' 
+AND name NOT LIKE '%чный';
+
+15.
+SELECT (SELECT MAX(area) FROM real_estate_object) / (SELECT MIN(area) FROM real_estate_object) AS raznitsa;
+
+16.
+SELECT address 
+FROM real_estate_object 
+WHERE price / area < (SELECT AVG(price / area) FROM real_estate_object WHERE district_id = real_estate_object.district_id);
+
+17.
+SELECT last_name, first_name, middle_name
+FROM realtor
+WHERE id NOT IN (
+    SELECT realtor_id
+    FROM sale
+    WHERE sale_date >= '2025-03-15'
+);
+
+
+18.
+SELECT real_estate_id 
+FROM real_estate_structure 
+GROUP BY real_estate_id 
+HAVING SUM(area) <> (SELECT area FROM real_estate_object WHERE id = real_estate_structure.real_estate_id);
+
+19.
+SELECT id, address 
+FROM real_estate_object 
+WHERE area > ANY (SELECT area FROM real_estate_object WHERE type_id = (SELECT id FROM type WHERE name = 'Квартира'));
+
+20.
+SELECT id, address
+FROM real_estate_object
+WHERE price > ALL (
+    SELECT price
+    FROM real_estate_object
+    WHERE type_id = (SELECT id FROM type WHERE name = 'Квартира')
+    AND rooms = 2
+    AND building_material_id = (SELECT id FROM building_materials WHERE name = 'Панель')
+);
+
+
+
+21.
+SELECT address 
+FROM real_estate_object 
+WHERE district_id IN (
+    SELECT district_id 
+    FROM real_estate_object 
+    WHERE area > 100
+);
