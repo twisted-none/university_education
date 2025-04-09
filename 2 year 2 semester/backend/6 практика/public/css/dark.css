@@ -1,0 +1,72 @@
+/* Темная тема */
+body {
+    background-color: #1a1a2e;
+    color: #f0f0f0;
+  }
+  
+  input {
+    border: 1px solid #444;
+    background-color: #2a2a3e;
+    color: #f0f0f0;
+  }
+  
+  input:focus {
+    border-color: #5d7df9;
+    outline: none;
+  }
+  
+  .btn-primary {
+    background-color: #5d7df9;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4a6cf7;
+  }
+  
+  .btn-outline {
+    border: 2px solid #5d7df9;
+    color: #5d7df9;
+  }
+  
+  .btn-outline:hover {
+    background-color: #5d7df9;
+    color: #f0f0f0;
+  }
+  
+  .tab-btn {
+    color: #ccc;
+  }
+  
+  .tab-btn.active {
+    color: #5d7df9;
+    border-bottom-color: #5d7df9;
+  }
+  
+  .profile-info, .data-section {
+    background-color: #252542;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .message-box.success {
+    background-color: #1e392a;
+    color: #90ee90;
+  }
+  
+  .message-box.error {
+    background-color: #392a2a;
+    color: #f08080;
+  }
+  
+  table th, table td {
+    border-bottom: 1px solid #444;
+  }
+  
+  .item-card {
+    background-color: #2a2a4e;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .theme-switch {
+    background-color: #252542;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }

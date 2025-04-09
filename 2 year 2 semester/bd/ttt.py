@@ -1,12 +1,3 @@
-alph = 'АБОРС'
+count = {"G": 44444, "Z": 444, "C": 4424, "D": 4441111}
 
-count = 0
-
-for i1 in alph:
-    for i2 in alph:
-        for i3 in 'АБОС':
-            for i4 in 'АБОС':
-                word = i1 + i2 + i3 + i4
-                count += 1
-
-print(count)
+print(max(count, key=count.get), count[max(count, key=count.get)])

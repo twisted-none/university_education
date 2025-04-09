@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#4285f4">
+        <meta name="description" content="Приложение для создания и управления заметками, работающее офлайн">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Заметки">
+        <title>Заметки</title>
+        <link rel="manifest" href="manifest.json">
+        <link rel="icon" href="icons/favicon.ico">
+        <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+<body>
+    <div id="offline-indicator" class="offline-indicator">Режим офлайн</div>
+    <header>
+        <h1>Заметки</h1>
+    </header>
+    
+    <div class="container">
+        <div class="note-input">
+            <textarea id="note-text" placeholder="Введите текст заметки..."></textarea>
+            <button id="add-note">Добавить заметку</button>
+        </div>
+        
+        <div id="notes-list" class="notes-list">
+            <!-- Notes will be inserted here -->
+        </div>
+    </div>
+    
+    <div id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Редактировать заметку</h2>
+                <button class="close">&times;</button>
+            </div>
+            <textarea id="edit-note-text" placeholder="Введите текст заметки..."></textarea>
+            <input type="hidden" id="edit-note-id">
+            <button id="save-edit">Сохранить</button>
+        </div>
+    </div>
+
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
