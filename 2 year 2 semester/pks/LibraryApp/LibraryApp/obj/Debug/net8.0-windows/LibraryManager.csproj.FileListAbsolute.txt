@@ -1,0 +1,16 @@
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryManager.csproj.AssemblyReference.cache
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\AuthorWindow.baml
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\BookWindow..baml
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\GenreWindow.baml
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\AuthorWindow.g.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\BookWindow..g.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\GenreWindow.g.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryManager_MarkupCompile.cache
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryManager.g.resources
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryManager.AssemblyInfoInputs.cache
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryManager.AssemblyInfo.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryManager.csproj.CoreCompileInputs.cache

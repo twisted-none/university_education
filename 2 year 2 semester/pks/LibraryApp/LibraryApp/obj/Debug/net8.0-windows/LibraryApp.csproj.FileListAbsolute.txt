@@ -1,0 +1,302 @@
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.exe
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.deps.json
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.runtimeconfig.json
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.pdb
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.csproj.AssemblyReference.cache
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp_MarkupCompile.cache
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.g.resources
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.AssemblyInfoInputs.cache
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.AssemblyInfo.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.csproj.CoreCompileInputs.cache
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.csproj.Up2Date
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\refint\LibraryApp.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.pdb
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.genruntimeconfig.cache
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\ref\LibraryApp.dll
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\AuthorWindow.baml
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\BookWindow..baml
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\GenreWindow.baml
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\AuthorWindow.g.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\BookWindow..g.cs
+C:\Users\ruslan\source\repos\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\GenreWindow.g.cs
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.exe
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.deps.json
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.runtimeconfig.json
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\LibraryApp.pdb
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Humanizer.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.csproj.AssemblyReference.cache
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\AuthorWindow.baml
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\BookWindow..baml
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\GenreWindow.baml
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\MainWindow.baml
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\AuthorWindow.g.cs
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\BookWindow..g.cs
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\GenreWindow.g.cs
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\App.g.cs
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp_MarkupCompile.cache
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.g.resources
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.AssemblyInfoInputs.cache
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.AssemblyInfo.cs
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.csproj.CoreCompileInputs.cache
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.csproj.Up2Date
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\refint\LibraryApp.dll
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.pdb
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\LibraryApp.genruntimeconfig.cache
+D:\2 year 2 semester\pks\LibraryApp\LibraryApp\obj\Debug\net8.0-windows\ref\LibraryApp.dll

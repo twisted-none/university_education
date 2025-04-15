@@ -1,0 +1,43 @@
+{
+    "name": "Умный список задач",
+    "short_name": "Задачи",
+    "description": "PWA приложение для управления задачами с поддержкой офлайн-режима и уведомлений",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3367D6",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "images/icons/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "images/icons/icon-256x256.png",
+        "type": "image/png",
+        "sizes": "256x256",
+        "purpose": "any"
+      },
+      {
+        "src": "images/icons/icon-384x384.png",
+        "type": "image/png",
+        "sizes": "384x384",
+        "purpose": "any"
+      },
+      {
+        "src": "images/icons/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "images/screenshot.png",
+        "sizes": "320x640",
+        "type": "image/png"
+      }
+    ]
+  }

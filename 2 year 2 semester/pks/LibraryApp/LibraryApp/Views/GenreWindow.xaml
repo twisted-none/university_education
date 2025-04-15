@@ -1,0 +1,85 @@
+﻿<Window x:Class="LibraryApp.Views.GenreWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Управление жанрами" Height="450" Width="600"
+        FontFamily="Segoe UI" FontSize="14"
+        WindowStartupLocation="CenterScreen"
+        Background="#FFF0F0F0">
+    
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#FF333333"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,0,10,0"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#FFCCCCCC"/>
+            <Setter Property="Margin" Value="0,5,0,10"/>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#FFCCCCCC"/>
+            <Setter Property="Margin" Value="0,5,0,10"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="Padding" Value="10,0"/>
+            <Setter Property="Margin" Value="0,0,10,0"/>
+            <Setter Property="Background" Value="#FF4285F4"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#FF3367D6"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF3367D6"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Grid.Row="0" Text="УПРАВЛЕНИЕ ЖАНРАМИ" 
+                   FontSize="16" FontWeight="Bold" Margin="0,0,0,15"
+                   HorizontalAlignment="Center"/>
+
+        <!-- Таблица жанров -->
+        <DataGrid x:Name="GenresDataGrid" Grid.Row="1" Margin="0,0,0,15">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Количество книг" Binding="{Binding Books.Count}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Форма редактирования -->
+        <Border Grid.Row="2" Background="White" Padding="15" CornerRadius="5">
+            <StackPanel>
+                <TextBlock Text="Название жанра:"/>
+                <TextBox x:Name="GenreNameTextBox" Margin="0,5,0,15"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="Сохранить" Width="120" Click="SaveGenreButton_Click"
+                            Margin="0,0,10,0" Background="#FF34A853" BorderBrush="#FF2D8E47"/>
+                    <Button Content="Удалить" Width="100" Click="DeleteGenreButton_Click"
+                            Margin="0,0,10,0" Background="#FFEA4335" BorderBrush="#FFD33426"/>
+                    <Button Content="Отмена" Width="100" Click="CancelGenreButton_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
