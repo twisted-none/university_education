@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-Commerce Store</h1>
+        <div class="category-filter">
+            <label for="category-select">Filter by Category:</label>
+            <select id="category-select">
+                <option value="all">All Categories</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section class="products-container" id="products-container">
+            <!-- Product cards will be dynamically inserted here -->
+            <div class="loading">Loading products...</div>
+        </section>
+    </main>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h3>Customer Support</h3>
+            <button id="toggle-chat">Open Chat</button>
+        </div>
+        <div class="chat-box" id="chat-box" style="display: none;">
+            <div class="messages" id="messages">
+                <div class="system-message">Welcome to Customer Support! How can we help you today?</div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="message-input" placeholder="Type your message here...">
+                <button id="send-message">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- GraphQL and WebSocket client scripts -->
+    <script src="js/graphql-client.js"></script>
+    <script src="js/websocket-client.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
