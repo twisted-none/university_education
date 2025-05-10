@@ -98,8 +98,10 @@ app.use('/graphql', graphqlHTTP({
 }));
 
 // Serve customer frontend
+const FRONTEND_PATH = process.env.FRONTEND_PATH || '/frontend';
+app.use(express.static(FRONTEND_PATH));
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/index.html'));
+  res.sendFile(path.join(FRONTEND_PATH, 'index.html'));
 });
 
 // GraphQL Schema documentation endpoint

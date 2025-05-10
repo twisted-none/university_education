@@ -1,0 +1,57 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Laptop Pro X",
+        "price": 1299.99,
+        "description": "Powerful laptop with 16GB RAM, 512GB SSD, and a 15-inch display.",
+        "categories": ["electronics", "computers"]
+      },
+      {
+        "id": "2",
+        "name": "Wireless Headphones",
+        "price": 199.99,
+        "description": "Noise-cancelling headphones with 30-hour battery life.",
+        "categories": ["electronics"]
+      },
+      {
+        "id": "3",
+        "name": "Smart Watch",
+        "price": 249.99,
+        "description": "Fitness tracking, heart rate monitoring, and smart notifications.",
+        "categories": ["electronics", "wearables"]
+      },
+      {
+        "id": "4",
+        "name": "Coffee Maker",
+        "price": 89.99,
+        "description": "12-cup programmable coffee maker with auto shut-off.",
+        "categories": ["home"]
+      },
+      {
+        "id": "5",
+        "name": "Desk Lamp",
+        "price": 39.99,
+        "description": "Adjustable LED desk lamp with multiple brightness levels.",
+        "categories": ["home"]
+      }
+    ],
+    "categories": [
+      {
+        "id": "electronics",
+        "name": "Electronics"
+      },
+      {
+        "id": "computers",
+        "name": "Computers"
+      },
+      {
+        "id": "wearables",
+        "name": "Wearables"
+      },
+      {
+        "id": "home",
+        "name": "Home Goods"
+      }
+    ]
+  }

@@ -4,8 +4,8 @@ services:
       context: ./customer-app
       dockerfile: Dockerfile.backend
     volumes:
-      - ./customer-app/backend:/app
-      - /app/node_modules
+      - ./customer-app:/app
+      - /app/backend/node_modules
     environment:
       - PORT=3000
       - WS_SERVER=ws://websocket-server:9000
@@ -18,8 +18,8 @@ services:
       context: ./customer-app
       dockerfile: Dockerfile.backend
     volumes:
-      - ./customer-app/backend:/app
-      - /app/node_modules
+      - ./customer-app:/app
+      - /app/backend/node_modules
     environment:
       - PORT=3000
       - WS_SERVER=ws://websocket-server:9000
@@ -32,8 +32,8 @@ services:
       context: ./customer-app
       dockerfile: Dockerfile.backend
     volumes:
-      - ./customer-app/backend:/app
-      - /app/node_modules
+      - ./customer-app:/app
+      - /app/backend/node_modules
     environment:
       - PORT=3000
       - WS_SERVER=ws://websocket-server:9000
@@ -46,9 +46,8 @@ services:
       context: ./admin-app
       dockerfile: Dockerfile.backend
     volumes:
-      - ./admin-app/backend:/app
-      - /app/node_modules
-      - ./admin-app/backend/data:/app/data
+      - ./admin-app:/app
+      - /app/backend/node_modules
     environment:
       - PORT=8080
       - WS_SERVER=ws://websocket-server:9000

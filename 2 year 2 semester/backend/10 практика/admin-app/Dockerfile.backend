@@ -1,14 +1,23 @@
-FROM node:16-alpine
+FROM node:24-slim
 
+# Создаем рабочую директорию
 WORKDIR /app
 
-COPY ./backend/package*.json ./
+# Копируем файлы package.json и package-lock.json
+COPY ./backend/package*.json ./backend/
 
+# Устанавливаем зависимости
+WORKDIR /app/backend
 RUN npm install
 
+# Копируем остальные файлы backend
 COPY ./backend .
-COPY ./frontend /app/public
 
-EXPOSE 8080
+# Копируем frontend
+COPY ./frontend /app/frontend
 
+# Открываем порт
+EXPOSE 3000
+
+# Запускаем приложение
 CMD ["node", "server.js"]
