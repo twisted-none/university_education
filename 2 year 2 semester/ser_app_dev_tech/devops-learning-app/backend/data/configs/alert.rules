@@ -1,0 +1,67 @@
+groups:
+  - name: node_alerts
+    rules:
+      - alert: HighCPUUsage
+        expr: 100 - (avg by(instance) (irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100) > 80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Высокая нагрузка на CPU"
+          description: "Использование CPU превышает 80% более 5 минут на сервере {{ $labels.instance }}"
+
+      - alert: HighMemoryUsage
+        expr: (node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) / node_memory_MemTotal_bytes * 100 > 85
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Критический уровень использования памяти"
+          description: "Использование памяти превышает 85% более 5 минут на сервере {{ $labels.instance }}"
+
+      - alert: LowDiskSpace
+        expr: (node_filesystem_size_bytes - node_filesystem_free_bytes) / node_filesystem_size_bytes * 100 > 85
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Заканчивается место на диске"
+          description: "Использование дискового пространства превышает 85% на сервере {{ $labels.instance }}"
+
+  - name: service_alerts
+    rules:
+      - alert: TelegramBotDown
+        expr: sum(rate(container_cpu_usage_seconds_total{name="telegram_bot"}[1m])) == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "❌ Telegram бот не отвечает"
+          description: "Контейнер с ботом не показывает активности более 1 минуты"
+
+      - alert: TelegramBotNotRunning
+        expr: absent(container_cpu_usage_seconds_total{name="telegram_bot"})
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "⚠️ Контейнер Telegram бота остановлен"
+          description: "Контейнер с ботом не запущен или был остановлен"
+
+      - alert: ServiceDown
+        expr: up == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "❌ Сервис недоступен"
+          description: "Сервис {{ $labels.job }} недоступен более 1 минуты"
+
+      - alert: PromtailNotConnected
+        expr: promtail_targets_active_total == 0
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "⚠️ Promtail не собирает логи"
+          description: "Система логирования Promtail не имеет активных целей для сбора логов"

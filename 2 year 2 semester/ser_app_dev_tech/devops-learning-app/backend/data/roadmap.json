@@ -1,0 +1,1084 @@
+[
+  {
+    "title": "Основы DevOps",
+    "description": "Фундаментальные знания и практики DevOps",
+    "metadata": {
+      "resources": [
+        {
+          "title": "The DevOps Handbook",
+          "url": "https://itrevolution.com/the-devops-handbook/"
+        },
+        {
+          "title": "The Phoenix Project",
+          "url": "https://itrevolution.com/the-phoenix-project/"
+        }
+      ]
+    },
+    "children": [
+      {
+        "title": "Понимание DevOps",
+        "description": "История, философия и принципы DevOps",
+        "metadata": {
+          "resources": [
+            {
+              "title": "What is DevOps?",
+              "url": "https://aws.amazon.com/devops/what-is-devops/"
+            },
+            {
+              "title": "The Three Ways: Principles Underpinning DevOps",
+              "url": "https://itrevolution.com/the-three-ways-principles-underpinning-devops/"
+            }
+          ]
+        },
+        "children": [
+          {
+            "title": "DevOps vs. традиционная разработка",
+            "description": "Сравнение DevOps с традиционными методологиями"
+          },
+          {
+            "title": "Культура DevOps",
+            "description": "Организационные и культурные аспекты DevOps"
+          },
+          {
+            "title": "Непрерывное улучшение",
+            "description": "Принципы и практики непрерывного улучшения"
+          }
+        ]
+      },
+      {
+        "title": "Основы Linux",
+        "description": "Базовые знания Linux для DevOps инженера",
+        "children": [
+          {
+            "title": "Командная строка Linux",
+            "description": "Основные команды и инструменты командной строки",
+            "children": [
+              {
+                "title": "Навигация по файловой системе",
+                "description": "Команды cd, ls, pwd, find"
+              },
+              {
+                "title": "Работа с файлами и каталогами",
+                "description": "Команды touch, mkdir, rm, cp, mv"
+              },
+              {
+                "title": "Редакторы текста",
+                "description": "Использование vim, nano, emacs"
+              }
+            ]
+          },
+          {
+            "title": "Системное администрирование",
+            "description": "Управление пользователями, правами доступа, сервисами",
+            "children": [
+              {
+                "title": "Управление пользователями",
+                "description": "Команды useradd, usermod, userdel, passwd"
+              },
+              {
+                "title": "Права доступа",
+                "description": "Команды chmod, chown, системы прав в Linux"
+              },
+              {
+                "title": "Процессы и сервисы",
+                "description": "Команды ps, top, systemctl, service"
+              }
+            ]
+          },
+          {
+            "title": "Bash-скриптинг",
+            "description": "Написание скриптов для автоматизации задач",
+            "children": [
+              {
+                "title": "Переменные и аргументы",
+                "description": "Объявление переменных, передача аргументов"
+              },
+              {
+                "title": "Условные операторы",
+                "description": "if-then-else, case, циклы for, while"
+              },
+              {
+                "title": "Функции и модульность",
+                "description": "Создание и использование функций"
+              }
+            ]
+          },
+          {
+            "title": "Сетевое администрирование",
+            "description": "Сетевые настройки и инструменты в Linux",
+            "children": [
+              {
+                "title": "Базовые сетевые инструменты",
+                "description": "ip, ifconfig, ping, traceroute, netstat"
+              },
+              {
+                "title": "Настройка сети",
+                "description": "Статические IP, DHCP, DNS"
+              },
+              {
+                "title": "Брандмауэр и безопасность",
+                "description": "iptables, firewalld, ufw"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Системы управления версиями",
+        "description": "Инструменты и практики контроля версий",
+        "children": [
+          {
+            "title": "Git",
+            "description": "Распределенная система контроля версий",
+            "children": [
+              {
+                "title": "Основные команды Git",
+                "description": "init, add, commit, push, pull, clone"
+              },
+              {
+                "title": "Ветвление и слияние",
+                "description": "Создание веток, слияние, разрешение конфликтов"
+              },
+              {
+                "title": "Git-flow",
+                "description": "Модель ветвления для командной работы"
+              }
+            ]
+          },
+          {
+            "title": "GitLab / GitHub / Bitbucket",
+            "description": "Платформы для хостинга Git-репозиториев"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Контейнеризация",
+    "description": "Технологии и инструменты контейнеризации",
+    "children": [
+      {
+        "title": "Основы контейнеризации",
+        "description": "Понимание принципов контейнеризации",
+        "children": [
+          {
+            "title": "Контейнеры vs Виртуальные машины",
+            "description": "Сравнение технологий и применение"
+          },
+          {
+            "title": "Образы и контейнеры",
+            "description": "Архитектура и ключевые концепции"
+          }
+        ]
+      },
+      {
+        "title": "Docker",
+        "description": "Создание и управление контейнерами Docker",
+        "metadata": {
+          "resources": [
+            {
+              "title": "Docker Documentation",
+              "url": "https://docs.docker.com"
+            }
+          ]
+        },
+        "children": [
+          {
+            "title": "Базовые команды Docker",
+            "description": "Основные команды для работы с Docker",
+            "children": [
+              {
+                "title": "Управление образами",
+                "description": "build, pull, push, images, rmi"
+              },
+              {
+                "title": "Управление контейнерами",
+                "description": "run, start, stop, exec, ps, rm"
+              }
+            ]
+          },
+          {
+            "title": "Dockerfile",
+            "description": "Написание Dockerfile для создания образов",
+            "children": [
+              {
+                "title": "Базовые инструкции",
+                "description": "FROM, RUN, COPY, ADD, WORKDIR, ENV"
+              },
+              {
+                "title": "Оптимизация образов",
+                "description": "Многоступенчатая сборка, кэширование"
+              }
+            ]
+          },
+          {
+            "title": "Docker Compose",
+            "description": "Определение и запуск многоконтейнерных приложений",
+            "children": [
+              {
+                "title": "Структура docker-compose.yml",
+                "description": "Основные секции и параметры файла"
+              },
+              {
+                "title": "Работа с сетями и томами",
+                "description": "Настройка сетей и хранилищ для контейнеров"
+              }
+            ]
+          },
+          {
+            "title": "Docker Swarm",
+            "description": "Кластеризация и оркестрация Docker"
+          }
+        ]
+      },
+      {
+        "title": "Kubernetes",
+        "description": "Оркестрация контейнеров с Kubernetes",
+        "metadata": {
+          "resources": [
+            {
+              "title": "Kubernetes Documentation",
+              "url": "https://kubernetes.io/docs/home/"
+            }
+          ]
+        },
+        "children": [
+          {
+            "title": "Архитектура Kubernetes",
+            "description": "Компоненты и архитектура Kubernetes",
+            "children": [
+              {
+                "title": "Control Plane",
+                "description": "API Server, Scheduler, Controller Manager, etcd"
+              },
+              {
+                "title": "Nodes",
+                "description": "Kubelet, Container Runtime, Kube-proxy"
+              }
+            ]
+          },
+          {
+            "title": "Основные объекты Kubernetes",
+            "description": "Pods, Deployments, Services, ConfigMaps",
+            "children": [
+              {
+                "title": "Pods",
+                "description": "Базовые единицы развертывания в Kubernetes"
+              },
+              {
+                "title": "Контроллеры",
+                "description": "Deployments, StatefulSets, DaemonSets, Jobs"
+              },
+              {
+                "title": "Services & Networking",
+                "description": "ClusterIP, NodePort, LoadBalancer, Ingress"
+              },
+              {
+                "title": "Конфигурация",
+                "description": "ConfigMaps, Secrets, Environment Variables"
+              }
+            ]
+          },
+          {
+            "title": "Развертывание приложений",
+            "description": "Деплой приложений в Kubernetes",
+            "children": [
+              {
+                "title": "kubectl",
+                "description": "Основные команды и инструменты"
+              },
+              {
+                "title": "YAML-манифесты",
+                "description": "Структура и написание манифестов"
+              },
+              {
+                "title": "Helm",
+                "description": "Менеджер пакетов для Kubernetes"
+              }
+            ]
+          },
+          {
+            "title": "Масштабирование",
+            "description": "Горизонтальное масштабирование приложений",
+            "children": [
+              {
+                "title": "Horizontal Pod Autoscaler",
+                "description": "Автоматическое масштабирование на основе метрик"
+              },
+              {
+                "title": "Cluster Autoscaler",
+                "description": "Масштабирование узлов кластера"
+              }
+            ]
+          },
+          {
+            "title": "Безопасность Kubernetes",
+            "description": "Настройка безопасности в кластере",
+            "children": [
+              {
+                "title": "RBAC",
+                "description": "Контроль доступа на основе ролей"
+              },
+              {
+                "title": "Network Policies",
+                "description": "Управление сетевым трафиком"
+              },
+              {
+                "title": "Pod Security Policies",
+                "description": "Политики безопасности для подов"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CI/CD",
+    "description": "Непрерывная интеграция и доставка",
+    "metadata": {
+      "resources": [
+        {
+          "title": "Continuous Delivery",
+          "url": "https://continuousdelivery.com/"
+        }
+      ]
+    },
+    "children": [
+      {
+        "title": "Принципы CI/CD",
+        "description": "Основные принципы непрерывной интеграции и доставки",
+        "children": [
+          {
+            "title": "Непрерывная интеграция (CI)",
+            "description": "Автоматическая сборка и тестирование кода"
+          },
+          {
+            "title": "Непрерывная доставка (CD)",
+            "description": "Автоматизация развертывания в разные среды"
+          },
+          {
+            "title": "Непрерывное развертывание",
+            "description": "Автоматизация выпуска в продакшн"
+          }
+        ]
+      },
+      {
+        "title": "Jenkins",
+        "description": "Автоматизация сборки и доставки с Jenkins",
+        "children": [
+          {
+            "title": "Настройка Jenkins",
+            "description": "Установка, конфигурация, безопасность"
+          },
+          {
+            "title": "Jenkinsfile",
+            "description": "Написание пайплайнов в Declarative или Scripted синтаксисе"
+          },
+          {
+            "title": "Интеграция с инструментами",
+            "description": "Git, Docker, Kubernetes, тестовые фреймворки"
+          }
+        ]
+      },
+      {
+        "title": "GitLab CI",
+        "description": "Использование CI/CD в GitLab",
+        "children": [
+          {
+            "title": ".gitlab-ci.yml",
+            "description": "Структура и синтаксис конфигурационного файла"
+          },
+          {
+            "title": "Runners",
+            "description": "Настройка и управление GitLab Runners"
+          },
+          {
+            "title": "Артефакты и кэширование",
+            "description": "Управление артефактами и кэширование зависимостей"
+          }
+        ]
+      },
+      {
+        "title": "GitHub Actions",
+        "description": "Настройка CI/CD с GitHub Actions",
+        "children": [
+          {
+            "title": "Workflows",
+            "description": "Создание и настройка рабочих процессов"
+          },
+          {
+            "title": "Actions",
+            "description": "Использование готовых действий и создание собственных"
+          },
+          {
+            "title": "Secrets и переменные",
+            "description": "Управление секретами и переменными окружения"
+          }
+        ]
+      },
+      {
+        "title": "ArgoCD",
+        "description": "GitOps для Kubernetes",
+        "children": [
+          {
+            "title": "GitOps принципы",
+            "description": "Декларативный подход к управлению инфраструктурой"
+          },
+          {
+            "title": "Настройка ArgoCD",
+            "description": "Установка и конфигурация ArgoCD"
+          },
+          {
+            "title": "Синхронизация приложений",
+            "description": "Автоматическая синхронизация с Git-репозиторием"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Мониторинг и логирование",
+    "description": "Системы мониторинга и работа с логами",
+    "children": [
+      {
+        "title": "Основы мониторинга",
+        "description": "Принципы и архитектура систем мониторинга",
+        "children": [
+          {
+            "title": "Типы метрик",
+            "description": "Счетчики, датчики, гистограммы"
+          },
+          {
+            "title": "SLI, SLO, SLA",
+            "description": "Определение и использование показателей надежности"
+          },
+          {
+            "title": "Мониторинг на основе данных",
+            "description": "Подходы к анализу метрик и оповещениям"
+          }
+        ]
+      },
+      {
+        "title": "Prometheus",
+        "description": "Сбор и хранение метрик",
+        "children": [
+          {
+            "title": "Архитектура Prometheus",
+            "description": "Компоненты и принципы работы"
+          },
+          {
+            "title": "PromQL",
+            "description": "Язык запросов Prometheus"
+          },
+          {
+            "title": "Экспортеры",
+            "description": "Интеграция с различными системами"
+          },
+          {
+            "title": "Оповещения",
+            "description": "Настройка правил оповещений"
+          }
+        ]
+      },
+      {
+        "title": "Grafana",
+        "description": "Визуализация метрик и создание дашбордов",
+        "children": [
+          {
+            "title": "Настройка источников данных",
+            "description": "Интеграция с Prometheus и другими источниками"
+          },
+          {
+            "title": "Создание дашбордов",
+            "description": "Панели, переменные, аннотации"
+          },
+          {
+            "title": "Оповещения в Grafana",
+            "description": "Настройка оповещений на основе панелей"
+          }
+        ]
+      },
+      {
+        "title": "ELK Stack",
+        "description": "Сбор, обработка и анализ логов",
+        "children": [
+          {
+            "title": "Elasticsearch",
+            "description": "Хранение и индексация логов"
+          },
+          {
+            "title": "Logstash",
+            "description": "Сбор и трансформация данных"
+          },
+          {
+            "title": "Kibana",
+            "description": "Визуализация и анализ логов"
+          },
+          {
+            "title": "Beats",
+            "description": "Легковесные агенты для сбора данных"
+          }
+        ]
+      },
+      {
+        "title": "Loki",
+        "description": "Система хранения и запросов логов",
+        "children": [
+          {
+            "title": "Архитектура Loki",
+            "description": "Компоненты и принципы работы"
+          },
+          {
+            "title": "Promtail",
+            "description": "Агент для сбора логов"
+          },
+          {
+            "title": "LogQL",
+            "description": "Язык запросов для работы с логами"
+          }
+        ]
+      },
+      {
+        "title": "Jaeger",
+        "description": "Distributed tracing система",
+        "children": [
+          {
+            "title": "Основы трассировки",
+            "description": "Spans, Traces, Context Propagation"
+          },
+          {
+            "title": "Архитектура Jaeger",
+            "description": "Компоненты и принципы работы"
+          },
+          {
+            "title": "Интеграция с приложениями",
+            "description": "OpenTelemetry, инструментирование кода"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Инфраструктура как код (IaC)",
+    "description": "Управление инфраструктурой с помощью кода",
+    "children": [
+      {
+        "title": "Принципы IaC",
+        "description": "Основные концепции инфраструктуры как кода",
+        "children": [
+          {
+            "title": "Идемпотентность",
+            "description": "Гарантированный результат при повторных операциях"
+          },
+          {
+            "title": "Декларативный vs. императивный подход",
+            "description": "Сравнение подходов к описанию инфраструктуры"
+          },
+          {
+            "title": "Version Control",
+            "description": "Управление версиями инфраструктурного кода"
+          }
+        ]
+      },
+      {
+        "title": "Terraform",
+        "description": "Декларативное описание инфраструктуры",
+        "children": [
+          {
+            "title": "HCL синтаксис",
+            "description": "Изучение HashiCorp Configuration Language"
+          },
+          {
+            "title": "Ресурсы и провайдеры",
+            "description": "Работа с ресурсами различных облачных провайдеров"
+          },
+          {
+            "title": "Модули",
+            "description": "Создание и использование модулей Terraform"
+          },
+          {
+            "title": "State Management",
+            "description": "Управление состоянием инфраструктуры"
+          },
+          {
+            "title": "Terraform Cloud/Enterprise",
+            "description": "Совместная работа с Terraform"
+          }
+        ]
+      },
+      {
+        "title": "Ansible",
+        "description": "Конфигурационное управление и автоматизация",
+        "children": [
+          {
+            "title": "YAML синтаксис",
+            "description": "Основы формата YAML для Ansible"
+          },
+          {
+            "title": "Playbooks",
+            "description": "Написание и структурирование playbooks"
+          },
+          {
+            "title": "Роли",
+            "description": "Создание и использование ролей"
+          },
+          {
+            "title": "Инвентарь",
+            "description": "Статический и динамический инвентарь"
+          },
+          {
+            "title": "Ansible Galaxy",
+            "description": "Использование готовых ролей и коллекций"
+          }
+        ]
+      },
+      {
+        "title": "CloudFormation",
+        "description": "AWS-специфичный инструмент для IaC",
+        "children": [
+          {
+            "title": "Шаблоны CloudFormation",
+            "description": "Структура и синтаксис шаблонов"
+          },
+          {
+            "title": "Стеки и параметры",
+            "description": "Работа со стеками и параметризация"
+          },
+          {
+            "title": "Интеграция с AWS-сервисами",
+            "description": "Использование различных AWS-ресурсов"
+          }
+        ]
+      },
+      {
+        "title": "Pulumi",
+        "description": "IaC с использованием языков программирования",
+        "children": [
+          {
+            "title": "Поддерживаемые языки",
+            "description": "TypeScript, Python, Go, C#"
+          },
+          {
+            "title": "Ресурсы и провайдеры",
+            "description": "Создание и управление облачными ресурсами"
+          },
+          {
+            "title": "State Management",
+            "description": "Управление состоянием инфраструктуры"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Облачные платформы",
+    "description": "Работа с популярными облачными провайдерами",
+    "children": [
+      {
+        "title": "AWS",
+        "description": "Amazon Web Services",
+        "children": [
+          {
+            "title": "IAM",
+            "description": "Identity and Access Management"
+          },
+          {
+            "title": "EC2",
+            "description": "Elastic Compute Cloud"
+          },
+          {
+            "title": "S3",
+            "description": "Simple Storage Service"
+          },
+          {
+            "title": "RDS",
+            "description": "Relational Database Service"
+          },
+          {
+            "title": "Lambda",
+            "description": "Serverless computing"
+          },
+          {
+            "title": "VPC",
+            "description": "Virtual Private Cloud"
+          },
+          {
+            "title": "EKS",
+            "description": "Elastic Kubernetes Service"
+          }
+        ]
+      },
+      {
+        "title": "Azure",
+        "description": "Microsoft Azure",
+        "children": [
+          {
+            "title": "Azure AD",
+            "description": "Azure Active Directory"
+          },
+          {
+            "title": "Virtual Machines",
+            "description": "Вычислительные ресурсы"
+          },
+          {
+            "title": "Storage",
+            "description": "Blob, File, Table, Queue Storage"
+          },
+          {
+            "title": "Azure SQL",
+            "description": "Реляционные базы данных"
+          },
+          {
+            "title": "Functions",
+            "description": "Serverless computing"
+          },
+          {
+            "title": "Virtual Network",
+            "description": "Виртуальные сети"
+          },
+          {
+            "title": "AKS",
+            "description": "Azure Kubernetes Service"
+          }
+        ]
+      },
+      {
+        "title": "GCP",
+        "description": "Google Cloud Platform",
+        "children": [
+          {
+            "title": "IAM",
+            "description": "Identity and Access Management"
+          },
+          {
+            "title": "Compute Engine",
+            "description": "Виртуальные машины"
+          },
+          {
+            "title": "Cloud Storage",
+            "description": "Объектное хранилище"
+          },
+          {
+            "title": "Cloud SQL",
+            "description": "Управляемые реляционные БД"
+          },
+          {
+            "title": "Cloud Functions",
+            "description": "Serverless computing"
+          },
+          {
+            "title": "VPC",
+            "description": "Virtual Private Cloud"
+          },
+          {
+            "title": "GKE",
+            "description": "Google Kubernetes Engine"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Безопасность",
+    "description": "DevSecOps и безопасность инфраструктуры",
+    "children": [
+      {
+        "title": "Основы DevSecOps",
+        "description": "Интеграция безопасности в DevOps-практики",
+        "children": [
+          {
+            "title": "Принципы Shift Left",
+            "description": "Внедрение безопасности на ранних этапах"
+          },
+          {
+            "title": "Threat Modeling",
+            "description": "Моделирование угроз в DevOps-процессах"
+          },
+          {
+            "title": "Security as Code",
+            "description": "Управление безопасностью через код"
+          }
+        ]
+      },
+      {
+        "title": "Безопасность приложений",
+        "description": "Защита приложений от уязвимостей",
+        "children": [
+          {
+            "title": "SAST",
+            "description": "Статический анализ кода на безопасность"
+          },
+          {
+            "title": "DAST",
+            "description": "Динамический анализ безопасности приложений"
+          },
+          {
+            "title": "Software Composition Analysis",
+            "description": "Анализ компонентов и зависимостей"
+          }
+        ]
+      },
+      {
+        "title": "Безопасность инфраструктуры",
+        "description": "Защита инфраструктуры и облачных ресурсов",
+        "children": [
+          {
+            "title": "Identity Management",
+            "description": "Управление идентификацией и доступом"
+          },
+          {
+            "title": "Network Security",
+            "description": "Сегментация, брандмауэры, IDS/IPS"
+          },
+          {
+            "title": "Secrets Management",
+            "description": "HashiCorp Vault, AWS Secrets Manager, etc."
+          },
+          {
+            "title": "Compliance as Code",
+            "description": "Автоматизация проверки соответствия"
+          }
+        ]
+      },
+      {
+        "title": "Безопасность контейнеров",
+        "description": "Защита контейнеров и оркестраторов",
+        "children": [
+          {
+            "title": "Container Scanning",
+            "description": "Сканирование образов на уязвимости"
+          },
+          {
+            "title": "Kubernetes Security",
+            "description": "Настройка безопасности Kubernetes"
+          },
+          {
+            "title": "Runtime Security",
+            "description": "Защита контейнеров во время выполнения"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Непрерывная оптимизация",
+    "description": "Оптимизация производительности и расходов",
+    "children": [
+      {
+        "title": "Performance Testing",
+        "description": "Тестирование производительности приложений",
+        "children": [
+          {
+            "title": "Load Testing",
+            "description": "Тестирование под нагрузкой"
+          },
+          {
+            "title": "Stress Testing",
+            "description": "Стресс-тестирование"
+          },
+          {
+            "title": "Capacity Planning",
+            "description": "Планирование мощностей"
+          }
+        ]
+      },
+      {
+        "title": "Cost Optimization",
+        "description": "Оптимизация затрат на инфраструктуру",
+        "children": [
+          {
+            "title": "Cloud Cost Management",
+            "description": "Управление расходами в облаке"
+          },
+          {
+            "title": "Resource Rightsizing",
+            "description": "Правильный выбор размера ресурсов"
+          },
+          {
+            "title": "FinOps",
+            "description": "Финансовые операции для облачных сред"
+          }
+        ]
+      },
+      {
+        "title": "Chaos Engineering",
+        "description": "Тестирование отказоустойчивости систем",
+        "children": [
+          {
+            "title": "Принципы Chaos Engineering",
+            "description": "Основные принципы и методология"
+          },
+          {
+            "title": "Chaos Monkey",
+            "description": "Инструменты для Chaos Testing"
+          },
+          {
+            "title": "Игровые дни",
+            "description": "Планирование и проведение игровых дней отказа"
+          }
+        ]
+      },
+      {
+        "title": "SRE практики",
+        "description": "Site Reliability Engineering",
+        "children": [
+          {
+            "title": "Error Budgets",
+            "description": "Бюджетирование ошибок и планирование надёжности"
+          },
+          {
+            "title": "Toil Reduction",
+            "description": "Снижение рутинных операций"
+          },
+          {
+            "title": "Постмортемы",
+            "description": "Анализ инцидентов и извлечение уроков"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Специализированные инструменты",
+    "description": "Дополнительные инструменты для DevOps",
+    "children": [
+      {
+        "title": "Service Mesh",
+        "description": "Управление сервисной сеткой",
+        "children": [
+          {
+            "title": "Istio",
+            "description": "Популярная реализация Service Mesh"
+          },
+          {
+            "title": "Linkerd",
+            "description": "Легковесная Service Mesh для Kubernetes"
+          },
+          {
+            "title": "Service Mesh Interface",
+            "description": "Стандартизированный API для Service Mesh"
+          }
+        ]
+      },
+      {
+        "title": "Serverless",
+        "description": "Архитектура без серверов",
+        "children": [
+          {
+            "title": "AWS Lambda",
+            "description": "Функции как сервис в AWS"
+          },
+          {
+            "title": "Azure Functions",
+            "description": "Serverless вычисления в Azure"
+          },
+          {
+            "title": "Knative",
+            "description": "Kubernetes-native платформа для serverless"
+          },
+          {
+            "title": "OpenFaaS",
+            "description": "Functions as a Service для Docker и Kubernetes"
+          }
+        ]
+      },
+      {
+        "title": "База данных DevOps",
+        "description": "Управление базами данных в DevOps",
+        "children": [
+          {
+            "title": "Database Migrations",
+            "description": "Инструменты для миграции схем БД"
+          },
+          {
+            "title": "Database as Code",
+            "description": "Управление БД через код"
+          },
+          {
+            "title": "Мониторинг баз данных",
+            "description": "Специализированный мониторинг для БД"
+          }
+        ]
+      },
+      {
+        "title": "Сетевые инструменты",
+        "description": "Специализированные сетевые инструменты",
+        "children": [
+          {
+            "title": "SDN",
+            "description": "Software-Defined Networking"
+          },
+          {
+            "title": "Service Discovery",
+            "description": "Consul, etcd, Zookeeper"
+          },
+          {
+            "title": "API Gateways",
+            "description": "Kong, Ambassador, Traefik"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "DevOps практики",
+    "description": "Продвинутые методологии и практики",
+    "children": [
+      {
+        "title": "Agile & DevOps",
+        "description": "Интеграция DevOps с Agile-методологиями",
+        "children": [
+          {
+            "title": "Scrum и DevOps",
+            "description": "Совмещение Scrum и DevOps практик"
+          },
+          {
+            "title": "Kanban для DevOps",
+            "description": "Применение Kanban в DevOps командах"
+          },
+          {
+            "title": "Метрики DevOps",
+            "description": "DORA и другие метрики эффективности"
+          }
+        ]
+      },
+      {
+        "title": "DevSecOps",
+        "description": "Интеграция безопасности в DevOps",
+        "children": [
+          {
+            "title": "Security Champions",
+            "description": "Роль экспертов по безопасности в командах"
+          },
+          {
+            "title": "Автоматизация безопасности",
+            "description": "Непрерывная проверка безопасности"
+          },
+          {
+            "title": "Управление уязвимостями",
+            "description": "Процессы выявления и устранения уязвимостей"
+          }
+        ]
+      },
+      {
+        "title": "Управление знаниями",
+        "description": "Обмен знаниями в DevOps-культуре",
+        "children": [
+          {
+            "title": "Документация как код",
+            "description": "Управление документацией через Git"
+          },
+          {
+            "title": "Внутренние сообщества",
+            "description": "Создание сообществ практики"
+          },
+          {
+            "title": "Обучение и развитие",
+            "description": "Непрерывное обучение и менторство"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+global:
+  resolve_timeout: 1m
+
+route:
+  group_by: ['alertname']
+  group_wait: 5s
+  group_interval: 10s
+  repeat_interval: 10m
+  receiver: 'telegram-receiver'
+
+receivers:
+  - name: 'telegram-receiver'
+    telegram_configs:
+      - bot_token: ${TG_BOT_TOKEN}
+        chat_id: ${CHAT_ID}
+        parse_mode: 'HTML'
+        message: |
+          ⚡️ <b>Статус:</b> {{ if eq .Status "firing" }}🔴 ПРОБЛЕМА{{ else }}🟢 РЕШЕНО{{ end }}
+          
+          <b>Название:</b> {{ .CommonAnnotations.summary }}
+          
+          <b>Описание:</b> {{ .CommonAnnotations.description }}
+          
+          <b>Сервер:</b> {{ range .Alerts }}{{ .Labels.instance }}{{ end }}
+          
+          <b>Время:</b> {{ range .Alerts }}{{ .StartsAt.Format "02.01.2006 15:04:05" }}{{ end }}
+          
+          {{ if eq .Status "resolved" }}✅ Проблема была устранена{{ end }}
+
+inhibit_rules:
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname']
