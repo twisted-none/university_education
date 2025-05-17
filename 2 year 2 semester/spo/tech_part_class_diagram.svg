@@ -1,0 +1,132 @@
+<svg viewBox="0 0 900 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- DatabaseManager класс -->
+  <rect x="350" y="40" width="200" height="120" fill="white" stroke="black" stroke-width="2" />
+  <line x1="350" y1="70" x2="550" y2="70" stroke="black" stroke-width="2" />
+  <line x1="350" y1="100" x2="550" y2="100" stroke="black" stroke-width="2" />
+  <text x="450" y="60" text-anchor="middle" font-weight="bold">DatabaseManager</text>
+  <text x="360" y="90" font-size="12">- connection: Connection</text>
+  <text x="360" y="120" font-size="12">+ executeQuery(sql: String): ResultSet</text>
+  <text x="360" y="140" font-size="12">+ saveData(entity: Entity): boolean</text>
+  <text x="360" y="160" font-size="12">+ loadData(id: int): Entity</text>
+  
+  <!-- Team класс -->
+  <rect x="100" y="200" width="180" height="160" fill="white" stroke="black" stroke-width="2" />
+  <line x1="100" y1="230" x2="280" y2="230" stroke="black" stroke-width="2" />
+  <line x1="100" y1="290" x2="280" y2="290" stroke="black" stroke-width="2" />
+  <text x="190" y="220" text-anchor="middle" font-weight="bold">Team</text>
+  <text x="110" y="250" font-size="12">- id: int</text>
+  <text x="110" y="270" font-size="12">- name: String</text>
+  <text x="110" y="290" font-size="12">- city: String</text>
+  <text x="110" y="310" font-size="12">+ addPlayer(player: Player): void</text>
+  <text x="110" y="330" font-size="12">+ removePlayer(player: Player): void</text>
+  <text x="110" y="350" font-size="12">+ getPlayers(): List&lt;Player&gt;</text>
+  
+  <!-- Player класс -->
+  <rect x="100" y="400" width="180" height="160" fill="white" stroke="black" stroke-width="2" />
+  <line x1="100" y1="430" x2="280" y2="430" stroke="black" stroke-width="2" />
+  <line x1="100" y1="510" x2="280" y2="510" stroke="black" stroke-width="2" />
+  <text x="190" y="420" text-anchor="middle" font-weight="bold">Player</text>
+  <text x="110" y="450" font-size="12">- id: int</text>
+  <text x="110" y="470" font-size="12">- firstName: String</text>
+  <text x="110" y="490" font-size="12">- lastName: String</text>
+  <text x="110" y="510" font-size="12">- age: int</text>
+  <text x="110" y="530" font-size="12">- number: int</text>
+  <text x="110" y="550" font-size="12">- position: Position</text>
+  
+  <!-- Stadium класс -->
+  <rect x="350" y="200" width="180" height="140" fill="white" stroke="black" stroke-width="2" />
+  <line x1="350" y1="230" x2="530" y2="230" stroke="black" stroke-width="2" />
+  <line x1="350" y1="290" x2="530" y2="290" stroke="black" stroke-width="2" />
+  <text x="440" y="220" text-anchor="middle" font-weight="bold">Stadium</text>
+  <text x="360" y="250" font-size="12">- id: int</text>
+  <text x="360" y="270" font-size="12">- name: String</text>
+  <text x="360" y="290" font-size="12">- city: String</text>
+  <text x="360" y="310" font-size="12">- capacity: int</text>
+  <text x="360" y="330" font-size="12">+ getCapacity(): int</text>
+  
+  <!-- Match класс -->
+  <rect x="600" y="200" width="200" height="160" fill="white" stroke="black" stroke-width="2" />
+  <line x1="600" y1="230" x2="800" y2="230" stroke="black" stroke-width="2" />
+  <line x1="600" y1="310" x2="800" y2="310" stroke="black" stroke-width="2" />
+  <text x="700" y="220" text-anchor="middle" font-weight="bold">Match</text>
+  <text x="610" y="250" font-size="12">- id: int</text>
+  <text x="610" y="270" font-size="12">- date: Date</text>
+  <text x="610" y="290" font-size="12">- homeScore: int</text>
+  <text x="610" y="310" font-size="12">- awayScore: int</text>
+  <text x="610" y="330" font-size="12">+ setResult(home: int, away: int): void</text>
+  <text x="610" y="350" font-size="12">+ getTeams(): (Team, Team)</text>
+  
+  <!-- TicketPricing класс -->
+  <rect x="350" y="400" width="200" height="120" fill="white" stroke="black" stroke-width="2" />
+  <line x1="350" y1="430" x2="550" y2="430" stroke="black" stroke-width="2" />
+  <line x1="350" y1="470" x2="550" y2="470" stroke="black" stroke-width="2" />
+  <text x="450" y="420" text-anchor="middle" font-weight="bold">TicketPricing</text>
+  <text x="360" y="450" font-size="12">- baseprice: double</text>
+  <text x="360" y="470" font-size="12">- coefficients: Map</text>
+  <text x="360" y="490" font-size="12">+ calculatePrice(match: Match): double</text>
+  <text x="360" y="510" font-size="12">+ adjustPrice(price: double): double</text>
+  
+  <!-- ReportGenerator класс -->
+  <rect x="600" y="400" width="200" height="120" fill="white" stroke="black" stroke-width="2" />
+  <line x1="600" y1="430" x2="800" y2="430" stroke="black" stroke-width="2" />
+  <line x1="600" y1="460" x2="800" y2="460" stroke="black" stroke-width="2" />
+  <text x="700" y="420" text-anchor="middle" font-weight="bold">ReportGenerator</text>
+  <text x="610" y="450" font-size="12">- reportFormat: String</text>
+  <text x="610" y="480" font-size="12">+ generateStandings(): Report</text>
+  <text x="610" y="500" font-size="12">+ generateSchedule(): Report</text>
+  <text x="610" y="520" font-size="12">+ generateStats(): Report</text>
+  
+  <!-- UIManager класс -->
+  <rect x="600" y="40" width="200" height="120" fill="white" stroke="black" stroke-width="2" />
+  <line x1="600" y1="70" x2="800" y2="70" stroke="black" stroke-width="2" />
+  <line x1="600" y1="100" x2="800" y2="100" stroke="black" stroke-width="2" />
+  <text x="700" y="60" text-anchor="middle" font-weight="bold">UIManager</text>
+  <text x="610" y="90" font-size="12">- currentScreen: Screen</text>
+  <text x="610" y="120" font-size="12">+ showScreen(screen: Screen): void</text>
+  <text x="610" y="140" font-size="12">+ handleInput(input: Input): void</text>
+  
+  <!-- Связи между классами -->
+  <!-- DatabaseManager и другими классами -->
+  <path d="M450 160 L450 180 L190 180 L190 200" stroke="black" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#dependency)" fill="none" />
+  <path d="M450 160 L450 200" stroke="black" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#dependency)" fill="none" />
+  <path d="M450 160 L450 180 L700 180 L700 200" stroke="black" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#dependency)" fill="none" />
+  
+  <!-- Team и Player -->
+  <path d="M190 360 L190 400" stroke="black" stroke-width="1.5" marker-end="url(#composition)" fill="none" />
+  <text x="200" y="380" font-size="12">1</text>
+  <text x="200" y="400" font-size="12">*</text>
+  
+  <!-- Match и Team -->
+  <path d="M600 250 L280 250" stroke="black" stroke-width="1.5" marker-end="url(#association)" fill="none" />
+  <text x="290" y="240" font-size="12">1..2</text>
+  <text x="590" y="240" font-size="12">*</text>
+  
+  <!-- Match и Stadium -->
+  <path d="M600 280 L530 280" stroke="black" stroke-width="1.5" marker-end="url(#association)" fill="none" />
+  <text x="540" y="270" font-size="12">1</text>
+  <text x="590" y="270" font-size="12">*</text>
+  
+  <!-- TicketPricing и Match -->
+  <path d="M450 400 L450 380 L700 380 L700 360" stroke="black" stroke-width="1.5" marker-end="url(#association)" fill="none" />
+  
+  <!-- ReportGenerator и другими классами -->
+  <path d="M700 400 L700 360" stroke="black" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#dependency)" fill="none" />
+  <path d="M600 450 L280 280" stroke="black" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#dependency)" fill="none" />
+  
+  <!-- UIManager и другими классами -->
+  <path d="M600 100 L550 100" stroke="black" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#dependency)" fill="none" />
+  <path d="M700 160 L700 200" stroke="black" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#dependency)" fill="none" />
+  
+  <!-- Определение стрелок -->
+  <defs>
+    <marker id="association" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+    </marker>
+    <marker id="composition" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto">
+      <polygon points="6 1, 11 6, 6 11, 1 6" fill="black" />
+    </marker>
+    <marker id="dependency" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+    </marker>
+  </defs>
+</svg>

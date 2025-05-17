@@ -1,0 +1,23 @@
+﻿<Window x:Class="HTTPMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HTTPMonitor"
+        mc:Ignorable="d"
+        Title="HTTP Monitor" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Server">
+                <ContentControl x:Name="ServerContentControl"/>
+            </TabItem>
+            <TabItem Header="Client">
+                <ContentControl x:Name="ClientContentControl"/>
+            </TabItem>
+            <TabItem Header="Statistics &amp; Logs">
+                <ContentControl x:Name="StatisticsContentControl"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

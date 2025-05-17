@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HTTPMonitor/1.0.0": {
+        "runtime": {
+          "HTTPMonitor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HTTPMonitor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

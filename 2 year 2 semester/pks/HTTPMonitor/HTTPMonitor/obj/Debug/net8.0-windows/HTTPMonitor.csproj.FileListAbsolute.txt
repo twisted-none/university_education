@@ -1,0 +1,53 @@
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.exe
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.deps.json
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.runtimeconfig.json
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.dll
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.pdb
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\ClientControl.g.cs
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\ServerControl.g.cs
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\StatisticsControl.g.cs
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor_MarkupCompile.cache
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor_MarkupCompile.lref
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\ClientControl.baml
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\ServerControl.baml
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\StatisticsControl.baml
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.g.resources
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.AssemblyInfoInputs.cache
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.AssemblyInfo.cs
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.csproj.CoreCompileInputs.cache
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.dll
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\refint\HTTPMonitor.dll
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.pdb
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.genruntimeconfig.cache
+C:\Users\ruslan\source\repos\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\ref\HTTPMonitor.dll
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.exe
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.deps.json
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.runtimeconfig.json
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.dll
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\bin\Debug\net8.0-windows\HTTPMonitor.pdb
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\ClientControl.g.cs
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\ServerControl.g.cs
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\StatisticsControl.g.cs
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\App.g.cs
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor_MarkupCompile.cache
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor_MarkupCompile.lref
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\ClientControl.baml
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\ServerControl.baml
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\Controls\StatisticsControl.baml
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\MainWindow.baml
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.g.resources
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.GeneratedMSBuildEditorConfig.editorconfig
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.AssemblyInfoInputs.cache
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.AssemblyInfo.cs
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.csproj.CoreCompileInputs.cache
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.sourcelink.json
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.dll
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\refint\HTTPMonitor.dll
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.pdb
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\HTTPMonitor.genruntimeconfig.cache
+D:\university_education\2 year 2 semester\pks\HTTPMonitor\HTTPMonitor\obj\Debug\net8.0-windows\ref\HTTPMonitor.dll

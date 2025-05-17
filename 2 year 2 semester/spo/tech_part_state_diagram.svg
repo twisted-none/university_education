@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Начальное состояние -->
+  <circle cx="400" cy="40" r="10" fill="black" />
+  <path d="M400 50 L400 80" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Определение стрелок -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+    </marker>
+  </defs>
+  
+  <!-- Экран авторизации -->
+  <rect x="350" y="80" width="100" height="50" rx="10" ry="10" fill="white" stroke="black" stroke-width="2" />
+  <text x="400" y="110" text-anchor="middle">Авторизация</text>
+  <path d="M400 130 L400 160" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Главное меню -->
+  <rect x="325" y="160" width="150" height="60" rx="10" ry="10" fill="white" stroke="black" stroke-width="2" />
+  <text x="400" y="195" text-anchor="middle">Главное меню</text>
+  
+  <!-- Управление командами -->
+  <rect x="100" y="280" width="120" height="50" rx="10" ry="10" fill="white" stroke="black" stroke-width="2" />
+  <text x="160" y="310" text-anchor="middle">Управление</text>
+  <text x="160" y="325" text-anchor="middle">командами</text>
+  
+  <!-- Управление игроками -->
+  <rect x="250" y="280" width="120" height="50" rx="10" ry="10" fill="white" stroke="black" stroke-width="2" />
+  <text x="310" y="310" text-anchor="middle">Управление</text>
+  <text x="310" y="325" text-anchor="middle">игроками</text>
+  
+  <!-- Управление стадионами -->
+  <rect x="400" y="280" width="120" height="50" rx="10" ry="10" fill="white" stroke="black" stroke-width="2" />
+  <text x="460" y="310" text-anchor="middle">Управление</text>
+  <text x="460" y="325" text-anchor="middle">стадионами</text>
+  
+  <!-- Управление матчами -->
+  <rect x="550" y="280" width="120" height="50" rx="10" ry="10" fill="white" stroke="black" stroke-width="2" />
+  <text x="610" y="310" text-anchor="middle">Управление</text>
+  <text x="610" y="325" text-anchor="middle">матчами</text>
+  
+  <!-- Управление ценообразованием -->
+  <rect x="100" y="380" width="120" height="50" rx="10" ry="10" fill="white" stroke="black" stroke-width="2" />
+  <text x="160" y="410" text-anchor="middle">Управление</text>
+  <text x="160" y="425" text-anchor="middle">ценами</text>
+  
+  <!-- Формирование отчетов -->
+  <rect x="400" y="380" width="120" height="50" rx="10" ry="10" fill="white" stroke="black" stroke-width="2" />
+  <text x="460" y="410" text-anchor="middle">Формирование</text>
+  <text x="460" y="425" text-anchor="middle">отчетов</text>
+  
+  <!-- Завершение работы -->
+  <rect x="325" y="480" width="150" height="50" rx="10" ry="10" fill="white" stroke="black" stroke-width="2" />
+  <text x="400" y="510" text-anchor="middle">Завершение работы</text>
+  
+  <!-- Конечное состояние -->
+  <circle cx="400" cy="570" r="8" fill="white" stroke="black" stroke-width="2" />
+  <circle cx="400" cy="570" r="12" fill="none" stroke="black" stroke-width="2" />
+  
+  <!-- Связи -->
+  <path d="M370 220 L160 280" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M380 220 L310 280" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M400 220 L460 280" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M420 220 L610 280" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M370 220 L160 380" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M420 220 L460 380" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Возвраты в главное меню -->
+  <path d="M160 330 C160 350, 300 350, 400 220" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  <path d="M310 330 C310 350, 350 350, 390 220" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  <path d="M460 330 C460 350, 420 350, 410 220" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  <path d="M610 330 C610 350, 500 350, 430 220" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  <path d="M160 430 C160 450, 300 450, 390 220" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  <path d="M460 430 C460 450, 420 450, 410 220" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  
+  <!-- Переход к завершению работы -->
+  <path d="M400 220 L400 480" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M400 530 L400 558" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+</svg>

@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\services\\httpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\services\\httpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\models\\messagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\models\\messagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\servercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\servercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\clientcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\clientcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\servercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\servercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\services\\httpserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\services\\httpserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\clientcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\clientcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\models\\serverstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\models\\serverstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\models\\requestlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\models\\requestlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\statisticscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\statisticscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\statisticscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\statisticscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\httpmonitor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\httpmonitor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HttpServerService.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\HttpServerService.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Services\\HttpServerService.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\HttpServerService.cs",
+              "RelativeToolTip": "HTTPMonitor\\Services\\HttpServerService.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAWwOIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:19:46.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HttpClientService.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\HttpClientService.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Services\\HttpClientService.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\HttpClientService.cs",
+              "RelativeToolTip": "HTTPMonitor\\Services\\HttpClientService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:20:06.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\App.xaml",
+              "RelativeDocumentMoniker": "HTTPMonitor\\App.xaml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\App.xaml",
+              "RelativeToolTip": "HTTPMonitor\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-22T09:13:18.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServerStatistics.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Models\\ServerStatistics.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Models\\ServerStatistics.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Models\\ServerStatistics.cs",
+              "RelativeToolTip": "HTTPMonitor\\Models\\ServerStatistics.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAiwFgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:19:04.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServerControl.xaml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ServerControl.xaml",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\ServerControl.xaml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ServerControl.xaml",
+              "RelativeToolTip": "HTTPMonitor\\Controls\\ServerControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-22T09:20:55.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageData.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Models\\MessageData.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Models\\MessageData.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Models\\MessageData.cs",
+              "RelativeToolTip": "HTTPMonitor\\Models\\MessageData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:19:19.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientControl.xaml.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ClientControl.xaml.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\ClientControl.xaml.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ClientControl.xaml.cs",
+              "RelativeToolTip": "HTTPMonitor\\Controls\\ClientControl.xaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAD4v0UAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:23:43.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\MainWindow.xaml.cs",
+              "RelativeToolTip": "HTTPMonitor\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:12:10.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServerControl.xaml.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ServerControl.xaml.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\ServerControl.xaml.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ServerControl.xaml.cs",
+              "RelativeToolTip": "HTTPMonitor\\Controls\\ServerControl.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAD4vxIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:23:26.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoggingService.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\LoggingService.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Services\\LoggingService.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\LoggingService.cs",
+              "RelativeToolTip": "HTTPMonitor\\Services\\LoggingService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:20:23.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatisticsService.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\StatisticsService.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Services\\StatisticsService.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\StatisticsService.cs",
+              "RelativeToolTip": "HTTPMonitor\\Services\\StatisticsService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvyMAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:20:37.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientControl.xaml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ClientControl.xaml",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\ClientControl.xaml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ClientControl.xaml",
+              "RelativeToolTip": "HTTPMonitor\\Controls\\ClientControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-22T09:21:23.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\App.xaml.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\App.xaml.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\App.xaml.cs",
+              "RelativeToolTip": "HTTPMonitor\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:13:31.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HTTPMonitor\\MainWindow.xaml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\MainWindow.xaml",
+              "RelativeToolTip": "HTTPMonitor\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-22T09:12:17.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\AssemblyInfo.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\AssemblyInfo.cs",
+              "RelativeToolTip": "HTTPMonitor\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:33:17.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RequestLog.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Models\\RequestLog.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Models\\RequestLog.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Models\\RequestLog.cs",
+              "RelativeToolTip": "HTTPMonitor\\Models\\RequestLog.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:18:45.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StatisticsControl.xaml.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\StatisticsControl.xaml.cs",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\StatisticsControl.xaml.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\StatisticsControl.xaml.cs",
+              "RelativeToolTip": "HTTPMonitor\\Controls\\StatisticsControl.xaml.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAIBJwLgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:24:11.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StatisticsControl.xaml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\StatisticsControl.xaml",
+              "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\StatisticsControl.xaml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\StatisticsControl.xaml",
+              "RelativeToolTip": "HTTPMonitor\\Controls\\StatisticsControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-22T09:21:46.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HTTPMonitor.csproj",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\HTTPMonitor.csproj",
+              "RelativeDocumentMoniker": "HTTPMonitor\\HTTPMonitor.csproj",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\HTTPMonitor.csproj",
+              "RelativeToolTip": "HTTPMonitor\\HTTPMonitor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T09:13:42.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
