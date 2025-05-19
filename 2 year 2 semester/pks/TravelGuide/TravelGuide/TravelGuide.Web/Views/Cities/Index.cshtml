@@ -1,0 +1,58 @@
+@model CitiesListViewModel
+@{
+    ViewData["Title"] = "Города";
+}
+
+<div class="row mb-4">
+    <div class="col-md-12">
+        <h1>Города</h1>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" class="form-inline">
+            <div class="input-group w-100">
+                <input type="text" class="form-control" placeholder="Поиск по названию города..." 
+                       name="searchString" value="@Model.SearchString" />
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-search"></i> Поиск
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (!Model.Cities.Any())
+{
+    <div class="alert alert-info">
+        По вашему запросу ничего не найдено.
+    </div>
+}
+else
+{
+    <div class="row">
+        @foreach (var city in Model.Cities)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="@city.ImagePath" class="card-img-top" alt="@city.Name" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@city.Name</h5>
+                        <p class="card-text">
+                            <strong>Регион:</strong> @city.Region<br>
+                            <strong>Население:</strong> @city.Population.ToString("N0") чел.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <a asp-action="Details" asp-route-id="@city.Id" class="btn btn-primary btn-block">
+                            <i class="fas fa-info-circle"></i> Подробнее
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

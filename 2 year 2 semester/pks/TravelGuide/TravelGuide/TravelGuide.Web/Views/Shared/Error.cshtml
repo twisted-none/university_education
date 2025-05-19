@@ -1,0 +1,27 @@
+@model ErrorViewModel
+@{
+    ViewData["Title"] = "Ошибка";
+}
+
+<h1 class="text-danger">Ошибка.</h1>
+<h2 class="text-danger">Произошла ошибка при обработке вашего запроса.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<div class="alert alert-danger">
+    <h4>Произошла непредвиденная ошибка</h4>
+    <p>
+        Пожалуйста, попробуйте выполнить операцию еще раз или обратитесь к администратору.
+    </p>
+</div>
+
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">
+        <i class="fas fa-home"></i> На главную
+    </a>
+</div>
