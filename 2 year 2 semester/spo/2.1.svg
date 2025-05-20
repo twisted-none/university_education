@@ -1,0 +1,51 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Заголовок диаграммы -->
+ <!-- Клиентская часть (Frontend) -->
+ <!-- API Gateway -->
+ <!-- Серверная часть (Backend) -->
+ <!-- Logger Service -->
+ <!-- База данных -->
+ <!-- Стрелки и связи -->
+ <!-- Frontend -> API Gateway -->
+ <!-- API Gateway -> Backend -->
+ <!-- Backend -> Logger Service -->
+ <!-- Backend -> Database -->
+ <!-- Пользователи -->
+ <!-- Пользователи -> Frontend -->
+ <!-- Доступ -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <text font-size="20.68" font-weight="bold" id="svg_1" text-anchor="middle" x="402.42" y="40.33">Архитектура системы организации футбольных соревнований</text>
+  <rect fill="#B3E5FC" height="120" id="svg_2" rx="10" ry="10" stroke="#0277BD" stroke-width="2" width="200" x="70" y="80"/>
+  <text font-size="18" font-weight="bold" id="svg_3" text-anchor="middle" x="170" y="110">Frontend</text>
+  <text font-size="14" id="svg_4" text-anchor="middle" x="170" y="140">React + TypeScript</text>
+  <text font-size="14" id="svg_5" text-anchor="middle" x="170" y="165">Redux</text>
+  <text font-size="14" id="svg_6" text-anchor="middle" x="170" y="185">UI Components</text>
+  <rect fill="#FFECB3" height="70" id="svg_7" rx="10" ry="10" stroke="#FFA000" stroke-width="2" width="120" x="342" y="70"/>
+  <text font-size="16" font-weight="bold" id="svg_8" text-anchor="middle" x="404" y="110">API Gateway</text>
+  <rect fill="#C8E6C9" height="120" id="svg_9" rx="10" ry="10" stroke="#388E3C" stroke-width="2" width="200" x="530" y="80"/>
+  <text font-size="18" font-weight="bold" id="svg_10" text-anchor="middle" x="630" y="110">Backend</text>
+  <text font-size="14" id="svg_11" text-anchor="middle" x="630" y="140">FastAPI (Python)</text>
+  <text font-size="14" id="svg_12" text-anchor="middle" x="630" y="165">Business Logic</text>
+  <text font-size="14" id="svg_13" text-anchor="middle" x="630" y="185">REST API</text>
+  <rect fill="#E1BEE7" height="60" id="svg_14" rx="10" ry="10" stroke="#8E24AA" stroke-width="2" width="200" x="530" y="230"/>
+  <text font-size="16" font-weight="bold" id="svg_15" text-anchor="middle" x="630" y="265">Logger Service</text>
+  <rect fill="#FFCDD2" height="80" id="svg_16" rx="10" ry="10" stroke="#C62828" stroke-width="2" width="200" x="530" y="320"/>
+  <text font-size="18" font-weight="bold" id="svg_17" text-anchor="middle" x="630" y="350">Database</text>
+  <text font-size="14" id="svg_18" text-anchor="middle" x="630" y="375">PostgreSQL</text>
+  <line id="svg_19" stroke="#000" stroke-width="2" x1="265" x2="330" y1="155" y2="117"/>
+  <polygon fill="#000" id="svg_20" points="325,111 340,116 325,121" transform="rotate(-20.0715 332.5 116)"/>
+  <line id="svg_21" stroke="#000" stroke-width="2" transform="matrix(1 0 0 1 0 0)" x1="467" x2="530" y1="106" y2="140"/>
+  <polygon fill="#000" id="svg_22" points="525,135 540,140 525,145"/>
+  <line id="svg_23" stroke="#000" stroke-width="2" x1="630" x2="630" y1="200" y2="230"/>
+  <polygon fill="#000" id="svg_24" points="625,225 630,240 635,225"/>
+  <line id="svg_25" stroke="#000" stroke-width="2" x1="630" x2="630" y1="290" y2="320"/>
+  <polygon fill="#000" id="svg_26" points="625,315 630,330 635,315"/>
+  <circle cx="170" cy="400" fill="#E0E0E0" id="svg_27" r="40" stroke="#616161" stroke-width="2"/>
+  <text font-size="16" font-weight="bold" id="svg_28" text-anchor="middle" x="170" y="405">Users</text>
+  <line id="svg_29" stroke="#000" stroke-width="2" x1="170" x2="170" y1="360" y2="200"/>
+  <polygon fill="#000" id="svg_30" points="165,205 170,190 175,205"/>
+  <text font-size="14" id="svg_31" transform="matrix(1 0 0 1 0 0)" x="107" y="453">Администраторы</text>
+  <text font-size="14" id="svg_32" transform="matrix(1 0 0 1 0 0)" x="80" y="475">Менеджеры соревнований</text>
+ </g>
+</svg>
