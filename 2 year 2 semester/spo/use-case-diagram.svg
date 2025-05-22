@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Actors -->
+  <g id="actors">
+    <!-- Administrator -->
+    <circle cx="120" cy="150" r="30" fill="white" stroke="black" stroke-width="2"/>
+    <line x1="120" y1="180" x2="120" y2="260" stroke="black" stroke-width="2"/>
+    <line x1="80" y1="220" x2="160" y2="220" stroke="black" stroke-width="2"/>
+    <line x1="120" y1="260" x2="80" y2="320" stroke="black" stroke-width="2"/>
+    <line x1="120" y1="260" x2="160" y2="320" stroke="black" stroke-width="2"/>
+    <text x="120" y="350" text-anchor="middle" font-family="Arial" font-size="16">Администратор</text>
+    
+    <!-- Manager -->
+    <circle cx="680" cy="150" r="30" fill="white" stroke="black" stroke-width="2"/>
+    <line x1="680" y1="180" x2="680" y2="260" stroke="black" stroke-width="2"/>
+    <line x1="640" y1="220" x2="720" y2="220" stroke="black" stroke-width="2"/>
+    <line x1="680" y1="260" x2="640" y2="320" stroke="black" stroke-width="2"/>
+    <line x1="680" y1="260" x2="720" y2="320" stroke="black" stroke-width="2"/>
+    <text x="680" y="350" text-anchor="middle" font-family="Arial" font-size="16">Менеджер</text>
+  </g>
+  
+  <!-- Use Cases -->
+  <g id="use-cases">
+    <!-- Team Management -->
+    <ellipse cx="400" cy="100" rx="120" ry="40" fill="white" stroke="black" stroke-width="2"/>
+    <text x="400" y="105" text-anchor="middle" font-family="Arial" font-size="14">Управление командами</text>
+    
+    <!-- Player Management -->
+    <ellipse cx="400" cy="180" rx="120" ry="40" fill="white" stroke="black" stroke-width="2"/>
+    <text x="400" y="185" text-anchor="middle" font-family="Arial" font-size="14">Управление игроками</text>
+    
+    <!-- Stadium Management -->
+    <ellipse cx="400" cy="260" rx="120" ry="40" fill="white" stroke="black" stroke-width="2"/>
+    <text x="400" y="265" text-anchor="middle" font-family="Arial" font-size="14">Управление стадионами</text>
+    
+    <!-- Schedule Management -->
+    <ellipse cx="400" cy="340" rx="120" ry="40" fill="white" stroke="black" stroke-width="2"/>
+    <text x="400" y="345" text-anchor="middle" font-family="Arial" font-size="14">Формирование расписания</text>
+    
+    <!-- Match Results -->
+    <ellipse cx="400" cy="420" rx="120" ry="40" fill="white" stroke="black" stroke-width="2"/>
+    <text x="400" y="425" text-anchor="middle" font-family="Arial" font-size="14">Внесение результатов</text>
+    
+    <!-- Ticket Pricing -->
+    <ellipse cx="400" cy="500" rx="120" ry="40" fill="white" stroke="black" stroke-width="2"/>
+    <text x="400" y="505" text-anchor="middle" font-family="Arial" font-size="14">Расчет стоимости билетов</text>
+    
+    <!-- Reporting -->
+    <ellipse cx="200" cy="500" rx="120" ry="40" fill="white" stroke="black" stroke-width="2"/>
+    <text x="200" y="505" text-anchor="middle" font-family="Arial" font-size="14">Формирование отчетов</text>
+    
+    <!-- User Management -->
+    <ellipse cx="200" cy="180" rx="120" ry="40" fill="white" stroke="black" stroke-width="2"/>
+    <text x="200" y="185" text-anchor="middle" font-family="Arial" font-size="14">Управление пользователями</text>
+  </g>
+  
+  <!-- Connections -->
+  <g id="connections" stroke="black" stroke-width="1.5">
+    <!-- Administrator connections -->
+    <line x1="150" y1="180" x2="280" y2="180"/>
+    <line x1="150" y1="220" x2="320" y2="100"/>
+    <line x1="150" y1="240" x2="320" y2="260"/>
+    <line x1="150" y1="260" x2="300" y2="340"/>
+    <line x1="150" y1="280" x2="300" y2="420"/>
+    <line x1="150" y1="300" x2="300" y2="500"/>
+    <line x1="160" y1="300" x2="180" y2="460"/>
+    
+    <!-- Manager connections -->
+    <line x1="650" y1="180" x2="520" y2="100"/>
+    <line x1="650" y1="200" x2="520" y2="180"/>
+    <line x1="650" y1="220" x2="520" y2="260"/>
+    <line x1="650" y1="240" x2="520" y2="340"/>
+    <line x1="650" y1="260" x2="520" y2="420"/>
+    <line x1="650" y1="280" x2="520" y2="500"/>
+    <line x1="640" y1="290" x2="320" y2="500"/>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Start Node -->
+  <circle cx="300" cy="50" r="20" fill="black"/>
+  
+  <!-- Activities -->
+  <g stroke="black" stroke-width="2" fill="white">
+    <!-- Get Stadium Capacity -->
+    <rect x="200" y="100" width="200" height="60" rx="10" ry="10"/>
+    <text x="300" y="135" text-anchor="middle" font-family="Arial" font-size="14">Получение вместимости стадиона</text>
+    
+    <!-- Get Team Rankings -->
+    <rect x="200" y="200" width="200" height="60" rx="10" ry="10"/>
+    <text x="300" y="235" text-anchor="middle" font-family="Arial" font-size="14">Получение позиций команд</text>
+    
+    <!-- Calculate Base Price -->
+    <rect x="200" y="300" width="200" height="60" rx="10" ry="10"/>
+    <text x="300" y="320" text-anchor="middle" font-family="Arial" font-size="12">Расчет базовой стоимости:</text>
+    <text x="300" y="340" text-anchor="middle" font-family="Arial" font-size="12">500 - (Вместимость / 10000) * 50</text>
+    
+    <!-- Calculate Prestige Factor -->
+    <rect x="200" y="400" width="200" height="60" rx="10" ry="10"/>
+    <text x="300" y="420" text-anchor="middle" font-family="Arial" font-size="12">Расчет коэффициента престижа:</text>
+    <text x="300" y="440" text-anchor="middle" font-family="Arial" font-size="12">(21 - (Место1 + Место2) / 2) / 10</text>
+    
+    <!-- Decision Node -->
+    <polygon points="300,500 340,540 300,580 260,540" fill="white" stroke="black" stroke-width="2"/>
+    <text x="300" y="545" text-anchor="middle" font-family="Arial" font-size="14">Категория билета?</text>
+    
+    <!-- VIP Multiplier -->
+    <rect x="100" y="600" width="150" height="40" rx="10" ry="10"/>
+    <text x="175" y="625" text-anchor="middle" font-family="Arial" font-size="14">Множитель VIP: 2.5</text>
+    
+    <!-- Standard Multiplier -->
+    <rect x="225" y="650" width="150" height="40" rx="10" ry="10"/>
+    <text x="300" y="675" text-anchor="middle" font-family="Arial" font-size="14">Множитель Стандарт: 1.0</text>
+    
+    <!-- Economy Multiplier -->
+    <rect x="350" y="600" width="150" height="40" rx="10" ry="10"/>
+    <text x="425" y="625" text-anchor="middle" font-family="Arial" font-size="14">Множитель Эконом: 0.7</text>
+    
+    <!-- Merge Node -->
+    <line x1="175" y1="640" x2="425" y2="640" stroke="black" stroke-width="2"/>
+    <line x1="300" y1="690" x2="300" y2="700" stroke="black" stroke-width="2"/>
+    
+    <!-- Calculate Final Price -->
+    <rect x="200" y="700" width="200" height="60" rx="10" ry="10"/>
+    <text x="300" y="720" text-anchor="middle" font-family="Arial" font-size="12">Расчет итоговой стоимости:</text>
+    <text x="300" y="740" text-anchor="middle" font-family="Arial" font-size="12">Базовая * Престиж * Множитель</text>
+  </g>
+  
+  <!-- End Node -->
+  <circle cx="300" cy="780" r="20" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="300" cy="780" r="15" fill="black"/>
+  
+  <!-- Connecting Arrows -->
+  <g stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" />
+      </marker>
+    </defs>
+    <line x1="300" y1="70" x2="300" y2="100"/>
+    <line x1="300" y1="160" x2="300" y2="200"/>
+    <line x1="300" y1="260" x2="300" y2="300"/>
+    <line x1="300" y1="360" x2="300" y2="400"/>
+    <line x1="300" y1="460" x2="300" y2="500"/>
+    
+    <!-- Decision flows -->
+    <line x1="260" y1="540" x2="175" y2="600"/>
+    <text x="200" y="580" font-family="Arial" font-size="12">VIP</text>
+    
+    <line x1="300" y1="580" x2="300" y2="650"/>
+    <text x="320" y="620" font-family="Arial" font-size="12">Стандарт</text>
+    
+    <line x1="340" y1="540" x2="425" y2="600"/>
+    <text x="400" y="580" font-family="Arial" font-size="12">Эконом</text>
+    
+    <!-- Merge flows -->
+    <line x1="175" y1="640" x2="175" y2="730"/>
+    <line x1="425" y1="640" x2="425" y2="730"/>
+    
+    <line x1="300" y1="760" x2="300" y2="780"/>
+  </g>
+</svg>
