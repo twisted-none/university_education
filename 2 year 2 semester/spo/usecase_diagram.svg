@@ -1,0 +1,116 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f8f9fa"/>
+  
+  <!-- System boundary -->
+  <rect x="200" y="50" width="600" height="550" fill="none" stroke="#333" stroke-width="2" rx="10"/>
+  <text x="500" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Система управления футбольными соревнованиями</text>
+  
+  <!-- Actors -->
+  <!-- Administrator -->
+  <g transform="translate(80, 150)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="15" x2="0" y2="45" stroke="#333" stroke-width="2"/>
+    <line x1="-15" y1="25" x2="15" y2="25" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="45" x2="-15" y2="65" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="45" x2="15" y2="65" stroke="#333" stroke-width="2"/>
+    <text x="0" y="85" text-anchor="middle" font-family="Arial" font-size="12">Администратор</text>
+    <text x="0" y="98" text-anchor="middle" font-family="Arial" font-size="12">системы</text>
+  </g>
+  
+  <!-- Manager -->
+  <g transform="translate(880, 300)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="15" x2="0" y2="45" stroke="#333" stroke-width="2"/>
+    <line x1="-15" y1="25" x2="15" y2="25" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="45" x2="-15" y2="65" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="45" x2="15" y2="65" stroke="#333" stroke-width="2"/>
+    <text x="0" y="85" text-anchor="middle" font-family="Arial" font-size="12">Менеджер</text>
+    <text x="0" y="98" text-anchor="middle" font-family="Arial" font-size="12">соревнований</text>
+  </g>
+  
+  <!-- Use Cases -->
+  <!-- Row 1 -->
+  <ellipse cx="350" cy="120" rx="70" ry="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="350" y="115" text-anchor="middle" font-family="Arial" font-size="11">Управление</text>
+  <text x="350" y="128" text-anchor="middle" font-family="Arial" font-size="11">пользователями</text>
+  
+  <ellipse cx="550" cy="120" rx="70" ry="25" fill="#e8f5e8" stroke="#388e3c" stroke-width="2"/>
+  <text x="550" y="115" text-anchor="middle" font-family="Arial" font-size="11">Управление</text>
+  <text x="550" y="128" text-anchor="middle" font-family="Arial" font-size="11">командами</text>
+  
+  <!-- Row 2 -->
+  <ellipse cx="350" cy="200" rx="70" ry="25" fill="#e8f5e8" stroke="#388e3c" stroke-width="2"/>
+  <text x="350" y="195" text-anchor="middle" font-family="Arial" font-size="11">Управление</text>
+  <text x="350" y="208" text-anchor="middle" font-family="Arial" font-size="11">игроками</text>
+  
+  <ellipse cx="550" cy="200" rx="70" ry="25" fill="#e8f5e8" stroke="#388e3c" stroke-width="2"/>
+  <text x="550" y="195" text-anchor="middle" font-family="Arial" font-size="11">Управление</text>
+  <text x="550" y="208" text-anchor="middle" font-family="Arial" font-size="11">стадионами</text>
+  
+  <!-- Row 3 -->
+  <ellipse cx="350" cy="280" rx="70" ry="25" fill="#e8f5e8" stroke="#388e3c" stroke-width="2"/>
+  <text x="350" y="275" text-anchor="middle" font-family="Arial" font-size="11">Формирование</text>
+  <text x="350" y="288" text-anchor="middle" font-family="Arial" font-size="11">расписания</text>
+  
+  <ellipse cx="550" cy="280" rx="70" ry="25" fill="#e8f5e8" stroke="#388e3c" stroke-width="2"/>
+  <text x="550" y="275" text-anchor="middle" font-family="Arial" font-size="11">Внесение</text>
+  <text x="550" y="288" text-anchor="middle" font-family="Arial" font-size="11">результатов</text>
+  
+  <!-- Row 4 -->
+  <ellipse cx="350" cy="360" rx="70" ry="25" fill="#e8f5e8" stroke="#388e3c" stroke-width="2"/>
+  <text x="350" y="355" text-anchor="middle" font-family="Arial" font-size="11">Расчет стоимости</text>
+  <text x="350" y="368" text-anchor="middle" font-family="Arial" font-size="11">билетов</text>
+  
+  <ellipse cx="550" cy="360" rx="70" ry="25" fill="#e8f5e8" stroke="#388e3c" stroke-width="2"/>
+  <text x="550" y="355" text-anchor="middle" font-family="Arial" font-size="11">Формирование</text>
+  <text x="550" y="368" text-anchor="middle" font-family="Arial" font-size="11">отчетов</text>
+  
+  <!-- Row 5 -->
+  <ellipse cx="450" cy="440" rx="70" ry="25" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="450" y="435" text-anchor="middle" font-family="Arial" font-size="11">Аутентификация</text>
+  <text x="450" y="448" text-anchor="middle" font-family="Arial" font-size="11">пользователя</text>
+  
+  <ellipse cx="450" cy="520" rx="70" ry="25" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="450" y="515" text-anchor="middle" font-family="Arial" font-size="11">Просмотр журнала</text>
+  <text x="450" y="528" text-anchor="middle" font-family="Arial" font-size="11">аудита</text>
+  
+  <!-- Connections from Administrator -->
+  <line x1="110" y1="180" x2="280" y2="120" stroke="#333" stroke-width="1.5"/>
+  <line x1="110" y1="200" x2="380" y2="440" stroke="#333" stroke-width="1.5"/>
+  <line x1="110" y1="220" x2="380" y2="520" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Connections from Manager -->
+  <line x1="850" y1="280" x2="620" y2="120" stroke="#333" stroke-width="1.5"/>
+  <line x1="850" y1="290" x2="420" y2="200" stroke="#333" stroke-width="1.5"/>
+  <line x1="850" y1="300" x2="620" y2="200" stroke="#333" stroke-width="1.5"/>
+  <line x1="850" y1="310" x2="420" y2="280" stroke="#333" stroke-width="1.5"/>
+  <line x1="850" y1="320" x2="620" y2="280" stroke="#333" stroke-width="1.5"/>
+  <line x1="850" y1="330" x2="420" y2="360" stroke="#333" stroke-width="1.5"/>
+  <line x1="850" y1="340" x2="620" y2="360" stroke="#333" stroke-width="1.5"/>
+  <line x1="850" y1="350" x2="520" y2="440" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Include relationships -->
+  <line x1="380" y1="445" x2="480" y2="125" stroke="#666" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="430" y="275" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">«include»</text>
+  
+  <line x1="380" y1="445" x2="280" y2="125" stroke="#666" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Legend -->
+  <g transform="translate(820, 450)">
+    <rect x="0" y="0" width="160" height="120" fill="white" stroke="#ccc" stroke-width="1" rx="5"/>
+    <text x="10" y="20" font-family="Arial" font-size="12" font-weight="bold">Легенда:</text>
+    
+    <ellipse cx="30" cy="40" rx="15" ry="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="1"/>
+    <text x="50" y="45" font-family="Arial" font-size="10">Только администратор</text>
+    
+    <ellipse cx="30" cy="60" rx="15" ry="8" fill="#e8f5e8" stroke="#388e3c" stroke-width="1"/>
+    <text x="50" y="65" font-family="Arial" font-size="10">Только менеджер</text>
+    
+    <ellipse cx="30" cy="80" rx="15" ry="8" fill="#fff3e0" stroke="#f57c00" stroke-width="1"/>
+    <text x="50" y="85" font-family="Arial" font-size="10">Общие функции</text>
+    
+    <line x1="10" y1="100" x2="30" y2="100" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="35" y="105" font-family="Arial" font-size="10">Include</text>
+  </g>
+</svg>

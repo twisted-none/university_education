@@ -1,0 +1,130 @@
+<svg width="600" height="1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 16px Arial; text-anchor: middle; fill: #2c3e50; }
+      .activity { font: 12px Arial; text-anchor: middle; fill: #2c3e50; }
+      .formula { font: 11px 'Courier New', monospace; text-anchor: middle; fill: #2c3e50; }
+      .branch-label { font: bold 10px Arial; text-anchor: middle; fill: white; }
+    </style>
+  </defs>
+  
+  <!-- Заголовок -->
+  <text x="300" y="25" class="title">Диаграмма активности: Алгоритм расчета стоимости билета</text>
+  
+  <!-- Начало -->
+  <circle cx="300" cy="60" r="20" fill="#2c3e50"/>
+  <text x="300" y="65" class="activity" fill="white">СТАРТ</text>
+  
+  <!-- Стрелка -->
+  <line x1="300" y1="80" x2="300" y2="110" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Получение входных данных -->
+  <rect x="200" y="115" width="200" height="50" rx="25" fill="#e8f4f8" stroke="#4a90e2" stroke-width="2"/>
+  <text x="300" y="135" class="activity">Получить данные матча:</text>
+  <text x="300" y="150" class="activity">ID матча, категория билета</text>
+  
+  <!-- Стрелка -->
+  <line x1="300" y1="165" x2="300" y2="185" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Получение информации о стадионе -->
+  <rect x="200" y="190" width="200" height="50" rx="25" fill="#e8f4f8" stroke="#4a90e2" stroke-width="2"/>
+  <text x="300" y="210" class="activity">Получить вместимость</text>
+  <text x="300" y="225" class="activity">стадиона из БД</text>
+  
+  <!-- Стрелка -->
+  <line x1="300" y1="240" x2="300" y2="260" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Расчет базовой стоимости -->
+  <rect x="180" y="265" width="240" height="50" rx="25" fill="#dda0dd" stroke="#9370db" stroke-width="2"/>
+  <text x="300" y="285" class="formula">Базовая стоимость = 500 -</text>
+  <text x="300" y="300" class="formula">(Вместимость / 10000) × 50</text>
+  
+  <!-- Стрелка -->
+  <line x1="300" y1="315" x2="300" y2="335" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Получение позиций команд -->
+  <rect x="200" y="340" width="200" height="50" rx="25" fill="#e8f4f8" stroke="#4a90e2" stroke-width="2"/>
+  <text x="300" y="360" class="activity">Получить места команд</text>
+  <text x="300" y="375" class="activity">в прошлом сезоне</text>
+  
+  <!-- Стрелка -->
+  <line x1="300" y1="390" x2="300" y2="410" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Расчет коэффициента престижа -->
+  <rect x="170" y="415" width="260" height="50" rx="25" fill="#dda0dd" stroke="#9370db" stroke-width="2"/>
+  <text x="300" y="435" class="formula">Коэффициент престижа =</text>
+  <text x="300" y="450" class="formula">(21 - (Место1 + Место2) / 2) / 10</text>
+  
+  <!-- Стрелка -->
+  <line x1="300" y1="465" x2="300" y2="485" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Решение (ромб) -->
+  <polygon points="300,490 350,520 300,550 250,520" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="2"/>
+  <text x="300" y="515" class="activity">Категория</text>
+  <text x="300" y="530" class="activity">билета?</text>
+  
+  <!-- Стрелки к ветвям -->
+  <line x1="250" y1="520" x2="120" y2="520" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="300" y1="550" x2="300" y2="570" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="350" y1="520" x2="480" y2="520" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Ветвь VIP -->
+  <rect x="60" y="480" width="80" height="25" rx="12" fill="#74b9ff"/>
+  <text x="100" y="497" class="branch-label">VIP</text>
+  <rect x="60" y="515" width="120" height="40" rx="20" fill="#dda0dd" stroke="#9370db" stroke-width="2"/>
+  <text x="120" y="540" class="formula">Множитель = 2.5</text>
+  <line x1="120" y1="555" x2="120" y2="580" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Ветвь Стандарт -->
+  <rect x="260" y="575" width="80" height="25" rx="12" fill="#74b9ff"/>
+  <text x="300" y="592" class="branch-label">Стандарт</text>
+  <rect x="240" y="610" width="120" height="40" rx="20" fill="#dda0dd" stroke="#9370db" stroke-width="2"/>
+  <text x="300" y="635" class="formula">Множитель = 1.0</text>
+  <line x1="300" y1="650" x2="300" y2="675" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Ветвь Эконом -->
+  <rect x="440" y="480" width="80" height="25" rx="12" fill="#74b9ff"/>
+  <text x="480" y="497" class="branch-label">Эконом</text>
+  <rect x="420" y="515" width="120" height="40" rx="20" fill="#dda0dd" stroke="#9370db" stroke-width="2"/>
+  <text x="480" y="540" class="formula">Множитель = 0.7</text>
+  <line x1="480" y1="555" x2="480" y2="580" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелки к точке слияния -->
+  <line x1="120" y1="580" x2="280" y2="675" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="480" y1="580" x2="320" y2="675" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Точка слияния -->
+  <circle cx="300" cy="685" r="8" fill="#2c3e50"/>
+  
+  <!-- Стрелка -->
+  <line x1="300" y1="693" x2="300" y2="715" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Финальный расчет -->
+  <rect x="160" y="720" width="280" height="60" rx="25" fill="#dda0dd" stroke="#9370db" stroke-width="2"/>
+  <text x="300" y="740" class="formula">Итоговая стоимость =</text>
+  <text x="300" y="755" class="formula">Базовая стоимость × Коэффициент престижа ×</text>
+  <text x="300" y="770" class="formula">Множитель категории</text>
+  
+  <!-- Стрелка -->
+  <line x1="300" y1="780" x2="300" y2="800" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Возврат результата -->
+  <rect x="200" y="805" width="200" height="50" rx="25" fill="#e8f4f8" stroke="#4a90e2" stroke-width="2"/>
+  <text x="300" y="825" class="activity">Вернуть рассчитанную</text>
+  <text x="300" y="840" class="activity">стоимость билета</text>
+  
+  <!-- Стрелка -->
+  <line x1="300" y1="855" x2="300" y2="875" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Конец -->
+  <circle cx="300" cy="890" r="20" fill="#2c3e50"/>
+  <circle cx="300" cy="890" r="15" fill="white"/>
+  <text x="300" y="895" class="activity" fill="#2c3e50">КОНЕЦ</text>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a90e2"/>
+    </marker>
+  </defs>
+</svg>
