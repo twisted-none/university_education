@@ -1,0 +1,118 @@
+<svg width="850" height="1300" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.activity-node {
+        fill: #f0f0f0;
+        stroke: #000;
+        stroke-width: 2;
+        rx: 20;
+        ry: 20;
+      }
+      .decision-node {
+        fill: #ffffcc;
+        stroke: #000;
+        stroke-width: 2;
+      }
+      .text {
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+      .text-small {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+      .arrow {
+        stroke: #000;
+        stroke-width: 2;
+        fill: none;
+        marker-end: url(#arrowhead);
+      }
+      .start-end {
+        fill: #000;
+        stroke: #000;
+        stroke-width: 2;
+      }</style>
+  <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+  </marker>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle class="start-end" cx="425" cy="30" id="svg_2" r="15"/>
+  <rect class="activity-node" height="40" id="svg_3" width="160" x="345" y="70"/>
+  <text class="text" id="svg_4" x="425" y="90">Войти в систему</text>
+  <rect class="activity-node" height="40" id="svg_5" width="200" x="325" y="140"/>
+  <text class="text" id="svg_6" x="425" y="160">Открыть главное меню</text>
+  <rect class="activity-node" height="40" id="svg_7" width="240" x="305" y="210"/>
+  <text class="text" id="svg_8" x="425" y="230">Выбрать действие</text>
+  <polygon class="decision-node" id="svg_9" points="425,280 475,310 425,340 375,310"/>
+  <text class="text-small" font-size="11.15" id="svg_10" x="425.96" y="308.5">Тип операции?</text>
+  <rect class="activity-node" height="40" id="svg_11" width="180" x="60" y="400"/>
+  <text class="text" id="svg_12" x="150" y="420">Управление командами</text>
+  <rect class="activity-node" height="40" id="svg_13" width="180" x="60" y="480"/>
+  <text class="text" id="svg_14" x="150" y="500">Добавить/изменить команду</text>
+  <rect class="activity-node" height="40" id="svg_15" width="180" x="60" y="560"/>
+  <text class="text" id="svg_16" x="150" y="580">Управление игроками</text>
+  <rect class="activity-node" height="40" id="svg_17" width="180" x="305" y="400"/>
+  <text class="text" id="svg_18" x="395" y="420">Управление матчами</text>
+  <rect class="activity-node" height="40" id="svg_19" width="180" x="305" y="480"/>
+  <text class="text" id="svg_20" x="395" y="500">Создать расписание</text>
+  <polygon class="decision-node" id="svg_21" points="395,540 445,570 395,600 345,570"/>
+  <text class="text-small" font-size="9" id="svg_22" x="395.01" y="561.54">Матч
+   <tspan dy="12" font-size="9" id="svg_23" x="395.01">завершен?</tspan></text>
+  <rect class="activity-node" height="40" id="svg_24" width="180" x="305" y="640"/>
+  <text class="text" id="svg_25" x="395" y="660">Внести результат матча</text>
+  <rect class="activity-node" height="40" id="svg_26" width="180" x="560" y="400"/>
+  <text class="text" id="svg_27" x="650" y="420">Управление стадионами</text>
+  <rect class="activity-node" height="40" id="svg_28" width="180" x="560" y="480"/>
+  <text class="text" id="svg_29" x="650" y="500">Расчет стоимости билетов</text>
+  <rect class="activity-node" height="40" id="svg_30" width="180" x="560" y="560"/>
+  <text class="text" id="svg_31" x="650" y="580">Формирование отчетов</text>
+  <polygon class="decision-node" id="svg_32" points="405.5970220565796,731.4925208091736 455.5970220565796,761.4925208091736 405.5970220565796,791.4925208091736 355.5970220565796,761.4925208091736" transform="matrix(1 0 0 1 0 0)"/>
+  <text class="text-small" font-size="10.9" id="svg_33" x="406.09" y="760.99">Продолжить?</text>
+  <rect class="activity-node" height="40" id="svg_34" width="160" x="324.1" y="832.99"/>
+  <text class="text" font-size="11" id="svg_35" x="404.1" y="852.99">Сохранить изменения</text>
+  <rect class="activity-node" height="40" id="svg_36" width="200" x="304.1" y="902.99"/>
+  <text class="text" font-size="11" id="svg_37" x="404.1" y="922.99">Сформировать турнирную таблицу</text>
+  <rect class="activity-node" height="40" id="svg_38" width="200" x="304.1" y="972.99"/>
+  <text class="text" font-size="11" id="svg_39" x="404.1" y="992.99">Записать в журнал действий</text>
+  <rect class="activity-node" height="40" id="svg_40" width="160" x="324.1" y="1042.99"/>
+  <text class="text" font-size="11" id="svg_41" x="404.1" y="1062.99">Выйти из системы</text>
+  <circle class="start-end" cx="404.1" cy="1122.99" id="svg_42" r="15"/>
+  <line class="arrow" id="svg_43" x1="425" x2="425" y1="45" y2="70"/>
+  <line class="arrow" id="svg_44" x1="425" x2="425" y1="110" y2="140"/>
+  <line class="arrow" id="svg_45" x1="425" x2="425" y1="180" y2="210"/>
+  <line class="arrow" id="svg_46" x1="425" x2="425" y1="250" y2="280"/>
+  <line class="arrow" id="svg_47" x1="375" x2="150" y1="310" y2="400"/>
+  <line class="arrow" id="svg_48" x1="425" x2="395" y1="340" y2="400"/>
+  <line class="arrow" id="svg_49" x1="475" x2="650" y1="310" y2="400"/>
+  <line class="arrow" id="svg_50" x1="150" x2="150" y1="440" y2="480"/>
+  <line class="arrow" id="svg_51" x1="150" x2="150" y1="520" y2="560"/>
+  <line class="arrow" id="svg_52" x1="150" x2="355.6" y1="600" y2="760"/>
+  <line class="arrow" id="svg_53" x1="395" x2="395" y1="440" y2="480"/>
+  <line class="arrow" id="svg_54" x1="395" x2="395" y1="520" y2="540"/>
+  <line class="arrow" id="svg_55" x1="395" x2="395" y1="600" y2="640"/>
+  <line class="arrow" id="svg_56" x1="405.45" x2="405.45" y1="681.49" y2="731.49"/>
+  <line class="arrow" id="svg_57" x1="650" x2="650" y1="440" y2="480"/>
+  <line class="arrow" id="svg_58" x1="650" x2="650" y1="520" y2="560"/>
+  <line class="arrow" id="svg_59" x1="650" x2="455.6" y1="601.49" y2="760"/>
+  <text class="text-small" font-size="9" id="svg_60" x="290.45" y="367.46">Команды</text>
+  <text class="text-small" font-size="16.17" id="svg_61" transform="matrix(1 0 0 1 0 0)" x="445.9" y="367.46">Матчи</text>
+  <text class="text-small" font-size="12.02" id="svg_62" x="554.32" y="371.19">Отчеты</text>
+  <text class="text-small" font-size="9" id="svg_63" transform="matrix(1 0 0 1 0 0)" x="416.19" y="614.48">Да</text>
+  <text class="text-small" font-size="9" id="svg_64" transform="matrix(1 0 0 1 0 0)" x="327.09" y="547.31">Нет</text>
+  <text class="text-small" font-size="9" id="svg_65" transform="matrix(1 0 0 1 0 0)" x="298.4" y="776.07">Нет</text>
+  <text class="text-small" font-size="9" id="svg_66" transform="matrix(1 0 0 1 0 0)" x="425.7" y="801.94">Да</text>
+  <line class="arrow" id="svg_67" x1="404.1" x2="404.1" y1="792.99" y2="832.99"/>
+  <line class="arrow" id="svg_68" x1="404.1" x2="404.1" y1="872.99" y2="902.99"/>
+  <line class="arrow" id="svg_69" x1="404.1" x2="404.1" y1="942.99" y2="972.99"/>
+  <line class="arrow" id="svg_70" x1="404.1" x2="404.1" y1="1012.99" y2="1042.99"/>
+  <line class="arrow" id="svg_71" x1="404.1" x2="404.1" y1="1082.99" y2="1107.99"/>
+  <!-- Loop back arrow - corrected to go left and reach main menu -->
+  <path class="arrow" d="M 355.6 761.49 L 30 761.49 L 30 160 L 325 160" fill="none" id="svg_72"/>
+  <path class="arrow" d="m345,570q-75,0 -75,-88.08q0,-62.92 35,-62.92" fill="none" id="svg_73"/>
+ </g>
+</svg>

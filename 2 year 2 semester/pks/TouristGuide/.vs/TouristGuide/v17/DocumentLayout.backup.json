@@ -1,0 +1,407 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\models\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\models\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\migrations\\20250501115417_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\migrations\\20250501115417_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\controllers\\attractionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\controllers\\attractionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\touristguide.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\touristguide.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\views\\cities\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\views\\cities\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\views\\cities\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\views\\cities\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\views\\cities\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\views\\cities\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\views\\attractions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\views\\attractions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|d:\\university_education\\2 year 2 semester\\pks\\touristguide\\touristguide\\touristguide.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DE4C280E-9984-4E3C-BDAE-C19C09E90064}|TouristGuide\\TouristGuide.csproj|solutionrelative:touristguide\\touristguide.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TouristGuide\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TouristGuide\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-29T14:35:28.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "TouristGuide\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "TouristGuide\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-29T14:35:20.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TouristGuide\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:34:35.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TouristGuide\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:30:38.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Data\\DbInitializer.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "TouristGuide\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:06:05.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TouristGuide\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:52:52.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Attraction.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Models\\Attraction.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Models\\Attraction.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Models\\Attraction.cs",
+              "RelativeToolTip": "TouristGuide\\Models\\Attraction.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:51:45.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Models\\City.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Models\\City.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Models\\City.cs",
+              "RelativeToolTip": "TouristGuide\\Models\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:49:31.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TouristGuide\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:17:16.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\appsettings.json",
+              "RelativeDocumentMoniker": "TouristGuide\\appsettings.json",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\appsettings.json",
+              "RelativeToolTip": "TouristGuide\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T11:48:23.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AttractionsController.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Controllers\\AttractionsController.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Controllers\\AttractionsController.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Controllers\\AttractionsController.cs",
+              "RelativeToolTip": "TouristGuide\\Controllers\\AttractionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:57:48.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Program.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Program.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Program.cs",
+              "RelativeToolTip": "TouristGuide\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:53:08.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TouristGuide",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\TouristGuide.csproj",
+              "RelativeDocumentMoniker": "TouristGuide\\TouristGuide.csproj",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\TouristGuide.csproj",
+              "RelativeToolTip": "TouristGuide\\TouristGuide.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-29T14:29:08.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Cities\\Index.cshtml",
+              "RelativeDocumentMoniker": "TouristGuide\\Views\\Cities\\Index.cshtml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Cities\\Index.cshtml",
+              "RelativeToolTip": "TouristGuide\\Views\\Cities\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:59:13.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Cities\\Details.cshtml",
+              "RelativeDocumentMoniker": "TouristGuide\\Views\\Cities\\Details.cshtml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Cities\\Details.cshtml",
+              "RelativeToolTip": "TouristGuide\\Views\\Cities\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:59:55.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250501115417_InitialCreate.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Migrations\\20250501115417_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Migrations\\20250501115417_InitialCreate.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Migrations\\20250501115417_InitialCreate.cs",
+              "RelativeToolTip": "TouristGuide\\Migrations\\20250501115417_InitialCreate.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:54:18.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Attractions\\Details.cshtml",
+              "RelativeDocumentMoniker": "TouristGuide\\Views\\Attractions\\Details.cshtml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Attractions\\Details.cshtml",
+              "RelativeToolTip": "TouristGuide\\Views\\Attractions\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T12:00:17.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TouristGuide\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TouristGuide\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T12:00:35.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TouristGuide\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TouristGuide\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T12:40:41.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Controllers\\CitiesController.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "TouristGuide\\Controllers\\CitiesController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:56:38.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TouristGuide\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TouristGuide\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T12:40:43.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Cities\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "TouristGuide\\Views\\Cities\\Details.cshtml.cs",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\Views\\Cities\\Details.cshtml.cs",
+              "RelativeToolTip": "TouristGuide\\Views\\Cities\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:15:15.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TouristGuide.csproj",
+              "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\TouristGuide.csproj",
+              "RelativeDocumentMoniker": "TouristGuide\\TouristGuide.csproj",
+              "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\TouristGuide\\TouristGuide\\TouristGuide.csproj",
+              "RelativeToolTip": "TouristGuide\\TouristGuide.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T11:52:27.427Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

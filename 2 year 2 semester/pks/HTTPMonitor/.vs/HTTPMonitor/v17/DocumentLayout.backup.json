@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\servercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\servercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\services\\httpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\services\\httpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\models\\messagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\models\\messagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\servercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\servercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\clientcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\clientcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\servercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\servercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\services\\httpserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +39,8 @@
       "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\clientcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\models\\messagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\models\\messagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\clientcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\clientcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\controls\\servercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|solutionrelative:httpmonitor\\controls\\servercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32D739F0-8BA2-4AC7-8036-8D475968C41A}|HTTPMonitor\\HTTPMonitor.csproj|d:\\university_education\\2 year 2 semester\\pks\\httpmonitor\\httpmonitor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "HttpServerService.cs",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\HttpServerService.cs",
               "RelativeDocumentMoniker": "HTTPMonitor\\Services\\HttpServerService.cs",
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HttpClientService.cs",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\HttpClientService.cs",
               "RelativeDocumentMoniker": "HTTPMonitor\\Services\\HttpClientService.cs",
               "ToolTip": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\HttpClientService.cs",
               "RelativeToolTip": "HTTPMonitor\\Services\\HttpClientService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAWwCsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T09:20:06.335Z",
               "EditorCaption": ""
@@ -145,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "ServerControl.xaml",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ServerControl.xaml",
               "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\ServerControl.xaml",
@@ -157,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MessageData.cs",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Models\\MessageData.cs",
               "RelativeDocumentMoniker": "HTTPMonitor\\Models\\MessageData.cs",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ClientControl.xaml.cs",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ClientControl.xaml.cs",
               "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\ClientControl.xaml.cs",
@@ -183,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "HTTPMonitor\\MainWindow.xaml.cs",
@@ -196,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ServerControl.xaml.cs",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ServerControl.xaml.cs",
               "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\ServerControl.xaml.cs",
@@ -209,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "LoggingService.cs",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\LoggingService.cs",
               "RelativeDocumentMoniker": "HTTPMonitor\\Services\\LoggingService.cs",
@@ -222,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "StatisticsService.cs",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Services\\StatisticsService.cs",
               "RelativeDocumentMoniker": "HTTPMonitor\\Services\\StatisticsService.cs",
@@ -235,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "ClientControl.xaml",
               "DocumentMoniker": "D:\\university_education\\2 year 2 semester\\pks\\HTTPMonitor\\HTTPMonitor\\Controls\\ClientControl.xaml",
               "RelativeDocumentMoniker": "HTTPMonitor\\Controls\\ClientControl.xaml",

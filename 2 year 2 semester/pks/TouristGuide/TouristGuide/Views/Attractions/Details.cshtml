@@ -1,0 +1,55 @@
+﻿@model TouristGuide.Models.Attraction
+
+@{
+    ViewData["Title"] = $"Детали: {Model.Name}";
+}
+
+<h1>@Model.Name</h1>
+<h4>(@Model.City.Name)</h4> // Отображаем название города
+<hr />
+
+<div class="row">
+    <div class="col-md-5">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" class="img-fluid rounded mb-3" alt="Фото @Model.Name">
+        }
+    </div>
+    <div class="col-md-7">
+        <dl class="row">
+            <dt class="col-sm-4">Описание</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+
+            @if (!string.IsNullOrEmpty(Model.History))
+            {
+                <dt class="col-sm-4">История</dt>
+                <dd class="col-sm-8" style="white-space: pre-wrap;">@Html.DisplayFor(model => model.History)</dd>
+            }
+
+            @if (!string.IsNullOrEmpty(Model.OpeningHours))
+            {
+                <dt class="col-sm-4">Часы работы</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.OpeningHours)</dd>
+            }
+
+            @if (Model.TicketPrice.HasValue)
+            {
+                <dt class="col-sm-4">Стоимость</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TicketPrice) @* Можно добавить валюту *@</dd>
+            }
+            else
+            {
+                <dt class="col-sm-4">Стоимость</dt>
+                <dd class="col-sm-8">Бесплатно или информация отсутствует</dd>
+            }
+
+        </dl>
+    </div>
+</div>
+
+
+<div class="mt-4">
+    @* Ссылка обратно на страницу города *@
+    <a asp-controller="Cities" asp-action="Details" asp-route-id="@Model.CityId" class="btn btn-primary">К городу @Model.City.Name</a>
+    <a asp-controller="Cities" asp-action="Index" class="btn btn-secondary">К списку городов</a>
+</div>

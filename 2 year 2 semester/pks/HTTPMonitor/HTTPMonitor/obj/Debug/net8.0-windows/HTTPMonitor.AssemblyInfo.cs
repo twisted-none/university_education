@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HTTPMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e2ea8e4cb553d37b304276abf97356c7c788655")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7c267e21e6cefff049580598abbdff6c2b3b73a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HTTPMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HTTPMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
