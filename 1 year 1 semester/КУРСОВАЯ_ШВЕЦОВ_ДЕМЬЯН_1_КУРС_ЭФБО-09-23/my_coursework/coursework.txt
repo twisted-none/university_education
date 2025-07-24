@@ -1,0 +1,435 @@
+#include <iostream>
+#include <cmath>
+#include <fstream> 
+#include <string>
+#include <Windows.h>
+#undef max
+using namespace std;
+
+
+class quadratic_equation 
+{
+
+private:
+    double a, b, c;
+
+    // функция выводящая  ui
+    void output_data(string file_name) 
+    {
+        string line;
+        ifstream file(file_name); // открываем файл
+        
+        if (file.is_open()) 
+        {
+            while (getline(file, line)) 
+            {
+                cout << line << endl;
+            }
+        }
+        
+        file.close();     // закрываем файл
+    }
+
+public:
+    explicit quadratic_equation(double set_a = 0, double  set_b = 0, double  set_c = 0)
+    {
+        a = set_a;
+        b = set_b;
+        c = set_c;
+    }
+    
+    void write_qe_answer() 
+    {
+        output_data("ui/qe/3.start_solving.txt");
+        
+        if (a == 0 && b == 0 && c == 0) 
+        {
+            output_data("ui/qe/4.first_type.txt");
+        } 
+        
+        else if (a != 0 && b == 0 && c == 0) 
+        {
+            output_data("ui/qe/universal_start.txt");
+            cout << a << "x^2 = 0." << endl;
+            output_data("ui/qe/5.second_type_end.txt");
+        } 
+        
+        else if (a == 0 && b == 0 && c != 0) 
+        {
+            output_data("ui/qe/universal_start.txt");
+            cout << c << " = 0." << endl;
+            output_data("ui/qe/6.third_type_end.txt");
+        } 
+        
+        else if (a != 0 && b == 0 && c != 0) 
+        {
+            output_data("ui/qe/universal_start.txt");
+            if (c > 0)
+            {
+                cout << a << "x^2 + " << c << " = 0." << endl;
+            }
+            else
+            {
+                cout << a << "x^2 - " << fabs(c) << " = 0." << endl;
+            }
+            
+            output_data("ui/qe/7.fourth_type_end.txt");
+
+            if (-c / a >= 0) {
+                double x = sqrt(-c / a);
+                cout << "Ура, у нас все получилось, теперь найдем корни уравнения!" << endl;
+                cout << "       ____________ " << endl;
+                cout << "x1 = \\/(-(" << c << ") / " << a << ") = " << x << endl;
+                cout << "        ____________ " << endl;
+                cout << "x2 = -\\/(-(" << c << ") / " << a << ") = " << -x << endl;
+                cout << "" << endl;
+                cout << "Итоговый ответ: x = " << x << ";" << -x << "." << endl;
+            } 
+            else 
+            {
+                cout << "-c/a = " << (-c / a) << endl;
+                cout << "К сожалению получилось так, что -c/a < 0, а значит корней нет." << endl;
+                cout << "Итоговый ответ: Корней нет." << endl;
+            }
+        } 
+
+        else if (a == 0 && b != 0 && c != 0) 
+        {
+            double x = -c / b;
+            output_data("ui/qe/universal_start.txt");
+            if (c > 0)
+            {
+                cout << b << "x + " << c << " = 0." << endl;
+            }
+            else
+            {
+                cout << b << "x - " << fabs(c) << " = 0." << endl;
+            }
+            
+            output_data("ui/qe/8.fifth_type_end.txt");
+            cout << "x = -c / b = " << x << endl; 
+            cout << "Итоговый ответ: x = " << x << '.' << endl;
+        }
+        
+        
+        else if ( a != 0 && b != 0 && c != 0)
+        {
+            double d;
+            d = pow(b, 2) - 4 * a * c;
+            
+            output_data("ui/qe/universal_start.txt");
+            if (a > 0 && b > 0 && c > 0)
+            {
+                cout << a << "x^2 + " << b << "x + " << c << " = 0." << endl;
+                cout << "Это уравненение 6 типа, поэтому решаем с помощью дискриминанта:" << endl;
+                cout << "D = " << b <<"^2 - 4 * " << a <<  " * " << c << " = " << d << "." << endl;
+            } 
+            
+            else if (a > 0 && b > 0 && c < 0)
+            {
+                cout << a << "x^2 + " << b << "x - " << fabs(c) << " = 0." << endl;
+                cout << "Это уравненение 6 типа, поэтому решаем с помощью дискриминанта:" << endl;
+                cout << "D = " << b <<"^2 - 4 * " << a <<  " * (" << c << ") = " << d << "." << endl;                
+            }
+
+            else if (a > 0 && b < 0 && c > 0)
+            {
+                cout << a << "x^2 - " << fabs(b) << "x + " << c << " = 0." << endl;
+                cout << "Это уравненение 6 типа, поэтому решаем с помощью дискриминанта:" << endl;
+                cout << "D = (" << b <<")^2 - 4 * " << a <<  " * " << c << " = " << d << "." << endl;                
+            }
+
+            else if (a < 0 && b > 0 && c > 0)
+            {
+                cout << a << "x^2 + " << b << "x + " << c << " = 0." << endl;
+                cout << "Это уравненение 6 типа, поэтому решаем с помощью дискриминанта:" << endl;
+                cout << "D = " << b <<"^2 - 4 * (" << a <<  ") * " << c << " = " << d << "." << endl;                
+            }
+
+            else if (a > 0 && b < 0 && c < 0)
+            {
+                cout << a << "x^2 - " << fabs(b) << "x - " << fabs(c) << " = 0." << endl;
+                cout << "Это уравненение 6 типа, поэтому решаем с помощью дискриминанта:" << endl;
+                cout << "D = (" << b <<")^2 - 4 * " << a <<  " * (" << c << ") = " << d << "." << endl;                
+            }
+
+            else if (a < 0 && b > 0 && c < 0)
+            {
+                cout << a << "x^2 + " << b << "x - " << fabs(c) << " = 0." << endl;
+                cout << "Это уравненение 6 типа, поэтому решаем с помощью дискриминанта:" << endl;
+                cout << "D = " << b <<"^2 - 4 * (" << a <<  ") * (" << c << ") = " << d << "." << endl;                
+            }
+
+            else if (a < 0 && b < 0 && c > 0)
+            {
+                cout << a << "x^2 - " << fabs(b) << "x + " << c << " = 0." << endl;
+                cout << "Это уравненение 6 типа, поэтому решаем с помощью дискриминанта:" << endl;
+                cout << "D = (" << b <<")^2 - 4 * (" << a <<  ") * " << c << " = " << d << "." << endl;                
+            }
+
+            else if (a < 0 && b < 0 && c < 0)
+            {
+                cout << a << "x^2 - " << fabs(b) << "x - " << fabs(c) << " = 0." << endl;
+                cout << "Это уравненение 6 типа, поэтому решаем с помощью дискриминанта:" << endl;
+                cout << "D = (" << b <<")^2 - 4 * (" << a <<  ") * (" << c << ") = " << d << "." << endl;                
+            }
+            
+            if (d > 0) 
+            {
+                double x1, x2;
+                x1 = (-b + sqrt(d))/(2 * a);
+                x2 = (-b - sqrt(d))/(2 * a);
+                output_data("ui/qe/9.1.sixth_type_d_higher_0.txt");
+                
+                
+                if (b > 0)
+                {
+                    cout << "               ____" << endl;
+                    cout << "       (-" << b << " + \\/" << d <<" )" << endl;
+                }
+                else
+                {
+                    cout << "                  ____" << endl;
+                    cout << "       (-(" << b << ") + \\/" << d <<" )" << endl;
+                }
+                cout << "x1 =   --------------- = " << x1 << endl;
+                cout << "            2 * " << a << "  " << endl; 
+
+                
+                if (b > 0)
+                {
+                    cout << "               ____" << endl;
+                    cout << "       (-" << b << " - \\/" << d <<" )" << endl;
+                }
+                else
+                {
+                    cout << "                  ____" << endl;
+                    cout << "       (-(" << b << ") - \\/" << d <<" )" << endl;
+                }
+                cout << "x2 =   --------------- = " << x2 << endl;
+                cout << "            2 * " << a << "  " << endl; 
+                cout << "" << endl;
+                cout << "Итоговый ответ: x =" << x1 << ";" << x2 << endl;
+            } 
+            
+            else if (d == 0) 
+            {
+                double x = -b/(2 * a);
+                cout << "Так как дискриминант равен 0, уравнение имеет всего один корень:" << endl;
+                if (b > 0)
+                {
+                    cout << "          -" << b << " " << endl;  
+                }
+                else
+                {
+                    cout << "          -(" << b << ") " << endl;
+                }
+                cout << "x = --------------- = " << x << '.' << endl;
+                cout << "            2 * " << a << "  " << endl;
+                cout << "Итоговый ответ: x =" << x << endl;
+            } 
+            
+            else {
+                cout << "Так как дискриминант меньше 0, следовательно, уравнение корней не имеет" << endl;
+                cout << "Итоговый ответ: Корней нет." << endl;
+
+            }
+        }
+
+        else if (a == 0 && b != 0 && c == 0) 
+        {
+            output_data("ui/qe/universal_start.txt");
+            cout << b << "x = 0." << endl;
+            output_data("ui/qe/10.seventh_type_end.txt");
+        } 
+
+        else if (a != 0 && b != 0 && c == 0)
+        {
+            double x = -b / a;
+            output_data("ui/qe/universal_start.txt");
+            
+            if (b > 0)
+            { 
+                cout << a << "x^2 + " << b << "x = 0." << endl;
+                cout << "Данное уравнение эквивалентно следующему:" << endl;
+                cout << "x(" << a << "x + " << b << ") = 0." << endl;
+            }
+            
+            else
+            {
+                cout << a << "x^2 - " << fabs(b) << "x = 0.\n" << endl;
+                cout << "Данное уравнение эквивалентно следующему:\n" << endl;
+                cout << "x(" << a << "x - " << fabs(b) << ") = 0." << endl;
+            }
+            
+            
+            output_data("ui/qe/11.eigth_type_end.txt");
+            if ( b > 0 ) 
+            {
+                cout << "x2 = -" << b << " / " << a << " = " << x << '.' << endl;
+            }
+            else
+            {
+                cout << "x2 = -(" << b << ") / " << a << " = " << x << '.' << endl;     
+            }
+            cout << "Итоговый ответ: x = 0; " << x << '.' << endl; 
+        } 
+    }
+};
+
+
+class solver 
+{
+
+private:
+    bool process = true;
+    int user_choice;
+    
+    void output_data(string file_name) 
+    {
+        string line;
+        ifstream file(file_name);
+        
+        if (file.is_open()) 
+        {
+            while (getline(file, line)) 
+            {
+                cout << line << endl;
+            }
+        }
+        
+        file.close(); 
+    }
+
+    // функция которая чистит консоль пока сменяется диалоговое окно
+    void clear_console() 
+    {
+        COORD topLeft = { 0, 0 };
+        HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
+        CONSOLE_SCREEN_BUFFER_INFO screen;
+        DWORD written;
+
+        GetConsoleScreenBufferInfo(console, &screen);
+        
+        FillConsoleOutputCharacterA
+        (
+            console, ' ', screen.dwSize.X * screen.dwSize.Y, topLeft, &written
+        );
+        
+        FillConsoleOutputAttribute
+        (
+            console, FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_BLUE,
+            screen.dwSize.X * screen.dwSize.Y, topLeft, &written
+        );
+        
+        SetConsoleCursorPosition(console, topLeft);
+        system("color 8D");
+    }
+
+public:
+    void get_qe_solve() 
+    {
+        double a, b, c;
+        output_data("ui/qe/1.entering_coef_in_qe.txt");
+        cin >> a >> b >> c;
+        
+        while(cin.fail()) 
+        {
+
+            cin.clear();
+
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+            output_data("ui/qe/2.bad_entering.txt");
+            cin >> a >> b >> c;
+        }
+
+        quadratic_equation equation(a, b, c);
+        equation.write_qe_answer();
+        output_data("ui/qe/12.end.txt");
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cin.get();
+    }
+
+    void show_help_menu() 
+    {
+        output_data("ui/3.help_menu.txt");
+        cin.get();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+    void show_qe_table() 
+    {
+        output_data("ui/4.table_equation.txt");
+        cin.get();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+    
+    void show_qe_qi_example()
+    {
+        output_data("ui/5.example_solution.txt");
+        cin.get();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+
+    void main_menu() 
+    {
+        while (process) 
+        {
+            output_data("ui/2.first_instruction.txt");
+            cin >> user_choice;
+            clear_console();
+            switch (user_choice) 
+            {
+            case 1:
+                show_help_menu();
+                clear_console();
+                break;
+            case 2:
+                show_qe_table();
+                clear_console();
+                break;
+            case 3:
+                show_qe_qi_example();  
+                clear_console();
+                break;  
+            case 4:
+                get_qe_solve();
+                clear_console();
+                break;
+            case 5:
+                clear_console();
+                break;
+            default:
+                output_data("ui/6.goodbye.txt");
+                process = false;
+            }
+            cout << endl;
+        }
+    }
+};
+
+void output_data(string file_name) 
+{
+        string line;
+        ifstream file(file_name); 
+        
+        if (file.is_open()) 
+        {
+            while (getline(file, line)) 
+            {
+                cout << line << endl;
+            }
+        }
+        
+        file.close();
+}
+
+int main() {
+    system("color 8D");
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    output_data("ui/1.hello_to_user.txt");
+    solver menu;
+    menu.main_menu();
+    return 0;
+}

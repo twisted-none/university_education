@@ -1,0 +1,65 @@
+# docker-compose.yml
+
+version: '3.8'
+
+services:
+  # ... сервис postgres без изменений ...
+  postgres:
+    image: postgres:15-alpine
+    container_name: football_db
+    environment:
+      POSTGRES_DB: football_championship
+      POSTGRES_USER: football_user
+      POSTGRES_PASSWORD: football_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/01-init.sql
+      - ./database/seed.sql:/docker-entrypoint-initdb.d/02-seed.sql
+    networks:
+      - football_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U football_user -d football_championship"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: football_backend
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - football_network
+    restart: unless-stopped
+    # --- ИЗМЕНЕНИЕ: Команда в кавычках (shell form) ---
+    command: "uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+
+  # ... сервис frontend без изменений ...
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: football_frontend_proxy
+    ports:
+      - "8080:80"
+    networks:
+      - football_network
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  football_network:
+    driver: bridge
