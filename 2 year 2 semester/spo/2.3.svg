@@ -1,0 +1,237 @@
+<svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="arrow" markerHeight="7" markerWidth="10" orient="auto" refX="9" refY="3.5">
+   <polygon fill="#333" id="svg_1" points="0 0, 10 3.5, 0 7"/>
+  </marker>
+  <marker id="diamond" markerHeight="8" markerWidth="10" orient="auto" refX="5" refY="4">
+   <polygon fill="white" id="svg_2" points="0 4, 5 0, 10 4, 5 8" stroke="#333"/>
+  </marker>
+ </defs>
+ <!-- Background -->
+ <!-- Title -->
+ <!-- Pattern Labels -->
+ <!-- Repository Pattern -->
+ <!-- ITeamRepository Interface -->
+ <!-- TeamRepository Implementation -->
+ <!-- Service Layer -->
+ <!-- TeamService -->
+ <!-- DTO Pattern -->
+ <!-- TeamDTO -->
+ <!-- PlayerDTO -->
+ <!-- MatchDTO -->
+ <!-- Domain Models -->
+ <!-- Team Entity -->
+ <!-- Factory Pattern -->
+ <!-- DTOFactory -->
+ <!-- Controller/Router Layer -->
+ <!-- TeamRouter -->
+ <!-- UserService with Role integration -->
+ <!-- RoleDTO -->
+ <!-- Relationships -->
+ <!-- Repository implements Interface -->
+ <!-- Service uses Repository -->
+ <!-- Router uses Service -->
+ <!-- Factory creates DTOs -->
+ <!-- Service uses Factory -->
+ <!-- Repository manages Entity -->
+ <!-- UserService uses Role -->
+ <!-- Legend -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#f8f9fa" height="1200" id="svg_3" transform="matrix(1 0 0 1 0 0)" width="1600" x="2.74" y="-4.11"/>
+  <text fill="#333" font-family="Arial" font-size="24" font-weight="bold" id="svg_4" text-anchor="middle" x="800" y="30">Диаграмма классов с паттернами проектирования</text>
+  <rect fill="#e3f2fd" height="30" id="svg_5" rx="5" stroke="#2196f3" width="200" x="50" y="60"/>
+  <text fill="#2196f3" font-family="Arial" font-size="14" font-weight="bold" id="svg_6" text-anchor="middle" x="150" y="80">Repository Pattern</text>
+  <rect fill="#fff3e0" height="30" id="svg_7" rx="5" stroke="#ff9800" width="200" x="300" y="60"/>
+  <text fill="#ff9800" font-family="Arial" font-size="14" font-weight="bold" id="svg_8" text-anchor="middle" x="400" y="80">Service Layer Pattern</text>
+  <rect fill="#e8f5e8" height="30" id="svg_9" rx="5" stroke="#4caf50" width="200" x="550" y="60"/>
+  <text fill="#4caf50" font-family="Arial" font-size="14" font-weight="bold" id="svg_10" text-anchor="middle" x="650" y="80">Factory Pattern</text>
+  <rect fill="#fce4ec" height="30" id="svg_11" rx="5" stroke="#e91e63" width="200" x="800" y="60"/>
+  <text fill="#e91e63" font-family="Arial" font-size="14" font-weight="bold" id="svg_12" text-anchor="middle" x="900" y="80">DTO Pattern</text>
+  <rect fill="#f3e5f5" height="30" id="svg_13" rx="5" stroke="#9c27b0" width="200" x="1050" y="60"/>
+  <text fill="#9c27b0" font-family="Arial" font-size="14" font-weight="bold" id="svg_14" text-anchor="middle" x="1150" y="80">Dependency Injection</text>
+  <g id="svg_15">
+   <rect fill="white" height="140" id="svg_16" rx="5" stroke="#2196f3" stroke-width="2" width="280" x="50" y="120"/>
+   <rect fill="#e3f2fd" height="30" id="svg_17" width="280" x="50" y="120"/>
+   <text font-family="Arial" font-size="14" font-weight="bold" id="svg_18" text-anchor="middle" x="190" y="140">&lt;&lt;interface&gt;&gt;</text>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_19" text-anchor="middle" x="190" y="155">ITeamRepository</text>
+   <line id="svg_20" stroke="#2196f3" x1="50" x2="330" y1="160" y2="160"/>
+   <text font-family="Arial" font-size="12" id="svg_21" x="60" y="180">+ getAll(pagination, filter): List&lt;Team&gt;</text>
+   <text font-family="Arial" font-size="12" id="svg_22" x="60" y="195">+ getById(id): Team</text>
+   <text font-family="Arial" font-size="12" id="svg_23" x="60" y="210">+ create(team): Team</text>
+   <text font-family="Arial" font-size="12" id="svg_24" x="60" y="225">+ update(id, team): Team</text>
+   <text font-family="Arial" font-size="12" id="svg_25" x="60" y="240">+ delete(id): bool</text>
+  </g>
+  <g id="svg_26">
+   <rect fill="white" height="160" id="svg_27" rx="5" stroke="#2196f3" stroke-width="2" width="280" x="50" y="300"/>
+   <rect fill="#e3f2fd" height="30" id="svg_28" width="280" x="50" y="300"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_29" text-anchor="middle" x="190" y="325">TeamRepository</text>
+   <line id="svg_30" stroke="#2196f3" x1="50" x2="330" y1="335" y2="335"/>
+   <text font-family="Arial" font-size="12" id="svg_31" x="60" y="350">- db: Database</text>
+   <line id="svg_32" stroke="#2196f3" x1="50" x2="330" y1="360" y2="360"/>
+   <text font-family="Arial" font-size="12" id="svg_33" x="60" y="380">+ getAll(pagination, filter): List&lt;Team&gt;</text>
+   <text font-family="Arial" font-size="12" id="svg_34" x="60" y="395">+ getById(id): Team</text>
+   <text font-family="Arial" font-size="12" id="svg_35" x="60" y="410">+ create(team): Team</text>
+   <text font-family="Arial" font-size="12" id="svg_36" x="60" y="425">+ update(id, team): Team</text>
+   <text font-family="Arial" font-size="12" id="svg_37" x="60" y="440">+ delete(id): bool</text>
+  </g>
+  <g id="svg_38">
+   <rect fill="white" height="200" id="svg_39" rx="5" stroke="#ff9800" stroke-width="2" width="320" x="400" y="200"/>
+   <rect fill="#fff3e0" height="30" id="svg_40" width="320" x="400" y="200"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_41" text-anchor="middle" x="560" y="225">TeamService</text>
+   <line id="svg_42" stroke="#ff9800" x1="400" x2="720" y1="235" y2="235"/>
+   <text font-family="Arial" font-size="12" id="svg_43" x="410" y="250">- repository: ITeamRepository</text>
+   <line id="svg_44" stroke="#ff9800" x1="400" x2="720" y1="260" y2="260"/>
+   <text font-family="Arial" font-size="12" id="svg_45" x="410" y="280">+ getTeams(pagination, filter): List&lt;TeamDTO&gt;</text>
+   <text font-family="Arial" font-size="12" id="svg_46" x="410" y="295">+ getTeamById(id): TeamDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_47" x="410" y="310">+ createTeam(teamDTO): TeamDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_48" x="410" y="325">+ updateTeam(id, teamDTO): TeamDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_49" x="410" y="340">+ deleteTeam(id): bool</text>
+   <text font-family="Arial" font-size="12" id="svg_50" x="410" y="355">+ getTeamStandings(season): List&lt;StandingDTO&gt;</text>
+   <text font-family="Arial" font-size="12" id="svg_51" x="410" y="370">+ calculateTicketPrice(match): TicketPriceDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_52" x="410" y="385">+ generateSchedule(teams): List&lt;MatchDTO&gt;</text>
+  </g>
+  <g id="svg_53">
+   <rect fill="white" height="140" id="svg_54" rx="5" stroke="#e91e63" stroke-width="2" width="200" x="800" y="120"/>
+   <rect fill="#fce4ec" height="30" id="svg_55" width="200" x="800" y="120"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_56" text-anchor="middle" x="900" y="145">TeamDTO</text>
+   <line id="svg_57" stroke="#e91e63" x1="800" x2="1000" y1="155" y2="155"/>
+   <text font-family="Arial" font-size="12" id="svg_58" x="810" y="175">+ id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_59" x="810" y="190">+ name: string</text>
+   <text font-family="Arial" font-size="12" id="svg_60" x="810" y="205">+ city: string</text>
+   <text font-family="Arial" font-size="12" id="svg_61" x="810" y="220">+ coach: string</text>
+   <text font-family="Arial" font-size="12" id="svg_62" x="810" y="235">+ last_season_place: int</text>
+   <text font-family="Arial" font-size="12" id="svg_63" x="810" y="250">+ role_id: int</text>
+  </g>
+  <g id="svg_64">
+   <rect fill="white" height="160" id="svg_65" rx="5" stroke="#e91e63" stroke-width="2" width="200" x="1050" y="120"/>
+   <rect fill="#fce4ec" height="30" id="svg_66" width="200" x="1050" y="120"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_67" text-anchor="middle" x="1150" y="145">PlayerDTO</text>
+   <line id="svg_68" stroke="#e91e63" x1="1050" x2="1250" y1="155" y2="155"/>
+   <text font-family="Arial" font-size="12" id="svg_69" x="1060" y="175">+ id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_70" x="1060" y="190">+ team_id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_71" x="1060" y="205">+ first_name: string</text>
+   <text font-family="Arial" font-size="12" id="svg_72" x="1060" y="220">+ last_name: string</text>
+   <text font-family="Arial" font-size="12" id="svg_73" x="1060" y="235">+ age: int</text>
+   <text font-family="Arial" font-size="12" id="svg_74" x="1060" y="250">+ jersey_number: int</text>
+   <text font-family="Arial" font-size="12" id="svg_75" x="1060" y="265">+ position: string</text>
+  </g>
+  <g id="svg_76">
+   <rect fill="white" height="180" id="svg_77" rx="5" stroke="#e91e63" stroke-width="2" width="220" x="1300" y="120"/>
+   <rect fill="#fce4ec" height="30" id="svg_78" width="220" x="1300" y="120"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_79" text-anchor="middle" x="1410" y="145">MatchDTO</text>
+   <line id="svg_80" stroke="#e91e63" x1="1300" x2="1520" y1="155" y2="155"/>
+   <text font-family="Arial" font-size="12" id="svg_81" x="1310" y="175">+ id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_82" x="1310" y="190">+ date: datetime</text>
+   <text font-family="Arial" font-size="12" id="svg_83" x="1310" y="205">+ home_team_id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_84" x="1310" y="220">+ away_team_id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_85" x="1310" y="235">+ stadium_id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_86" x="1310" y="250">+ home_goals: int</text>
+   <text font-family="Arial" font-size="12" id="svg_87" x="1310" y="265">+ away_goals: int</text>
+   <text font-family="Arial" font-size="12" id="svg_88" x="1310" y="280">+ status: string</text>
+  </g>
+  <g id="svg_89">
+   <rect fill="white" height="160" id="svg_90" rx="5" stroke="#607d8b" stroke-width="2" width="220" x="50" y="500"/>
+   <rect fill="#eceff1" height="30" id="svg_91" width="220" x="50" y="500"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_92" text-anchor="middle" x="160" y="525">Team</text>
+   <line id="svg_93" stroke="#607d8b" x1="50" x2="270" y1="535" y2="535"/>
+   <text font-family="Arial" font-size="12" id="svg_94" x="60" y="555">+ id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_95" x="60" y="570">+ name: string</text>
+   <text font-family="Arial" font-size="12" id="svg_96" x="60" y="585">+ city: string</text>
+   <text font-family="Arial" font-size="12" id="svg_97" x="60" y="600">+ coach: string</text>
+   <text font-family="Arial" font-size="12" id="svg_98" x="60" y="615">+ last_season_place: int</text>
+   <text font-family="Arial" font-size="12" id="svg_99" x="60" y="630">+ role_id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_100" x="60" y="645">+ players: List&lt;Player&gt;</text>
+  </g>
+  <g id="svg_101">
+   <rect fill="white" height="160" id="svg_102" rx="5" stroke="#4caf50" stroke-width="2" width="280" x="800" y="350"/>
+   <rect fill="#e8f5e8" height="30" id="svg_103" width="280" x="800" y="350"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_104" text-anchor="middle" x="940" y="375">DTOFactory</text>
+   <line id="svg_105" stroke="#4caf50" x1="800" x2="1080" y1="385" y2="385"/>
+   <text font-family="Arial" font-size="12" id="svg_106" x="810" y="405">+ createTeamDTO(team): TeamDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_107" x="810" y="420">+ createPlayerDTO(player): PlayerDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_108" x="810" y="435">+ createMatchDTO(match): MatchDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_109" x="810" y="450">+ createStadiumDTO(stadium): StadiumDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_110" x="810" y="465">+ createTicketDTO(ticket): TicketDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_111" x="810" y="480">+ createUserDTO(user): UserDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_112" x="810" y="495">+ createRoleDTO(role): RoleDTO</text>
+  </g>
+  <g id="svg_113">
+   <rect fill="white" height="180" id="svg_114" rx="5" stroke="#9c27b0" stroke-width="2" width="300" x="400" y="550"/>
+   <rect fill="#f3e5f5" height="30" id="svg_115" width="300" x="400" y="550"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_116" text-anchor="middle" x="550" y="575">TeamRouter</text>
+   <line id="svg_117" stroke="#9c27b0" x1="400" x2="700" y1="585" y2="585"/>
+   <text font-family="Arial" font-size="12" id="svg_118" x="410" y="600">- service: TeamService</text>
+   <line id="svg_119" stroke="#9c27b0" x1="400" x2="700" y1="610" y2="610"/>
+   <text font-family="Arial" font-size="12" id="svg_120" x="410" y="630">+ getTeams(): Response</text>
+   <text font-family="Arial" font-size="12" id="svg_121" x="410" y="645">+ getTeam(id): Response</text>
+   <text font-family="Arial" font-size="12" id="svg_122" x="410" y="660">+ createTeam(): Response</text>
+   <text font-family="Arial" font-size="12" id="svg_123" x="410" y="675">+ updateTeam(id): Response</text>
+   <text font-family="Arial" font-size="12" id="svg_124" x="410" y="690">+ deleteTeam(id): Response</text>
+   <text font-family="Arial" font-size="12" id="svg_125" x="410" y="705">+ getTeamStandings(): Response</text>
+   <text font-family="Arial" font-size="12" id="svg_126" x="410" y="720">+ calculateTicketPrice(): Response</text>
+  </g>
+  <g id="svg_127">
+   <rect fill="white" height="160" id="svg_128" rx="5" stroke="#ff9800" stroke-width="2" width="280" x="800" y="550"/>
+   <rect fill="#fff3e0" height="30" id="svg_129" width="280" x="800" y="550"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_130" text-anchor="middle" x="940" y="575">UserService</text>
+   <line id="svg_131" stroke="#ff9800" x1="800" x2="1080" y1="585" y2="585"/>
+   <text font-family="Arial" font-size="12" id="svg_132" x="810" y="600">- userRepository: IUserRepository</text>
+   <text font-family="Arial" font-size="12" id="svg_133" x="810" y="615">- roleRepository: IRoleRepository</text>
+   <line id="svg_134" stroke="#ff9800" x1="800" x2="1080" y1="625" y2="625"/>
+   <text font-family="Arial" font-size="12" id="svg_135" x="810" y="645">+ authenticateUser(credentials): UserDTO</text>
+   <text font-family="Arial" font-size="12" id="svg_136" x="810" y="660">+ getUserRoles(userId): List&lt;RoleDTO&gt;</text>
+   <text font-family="Arial" font-size="12" id="svg_137" x="810" y="675">+ checkPermission(userId, action): bool</text>
+   <text font-family="Arial" font-size="12" id="svg_138" x="810" y="690">+ assignRole(userId, roleId): bool</text>
+  </g>
+  <g id="svg_139" transform="matrix(1 0 0 1 0 0)">
+   <rect fill="white" height="120" id="svg_140" rx="5" stroke="#e91e63" stroke-width="2" width="200" x="1150" y="350"/>
+   <rect fill="#fce4ec" height="30" id="svg_141" width="200" x="1150" y="350"/>
+   <text font-family="Arial" font-size="16" font-weight="bold" id="svg_142" text-anchor="middle" x="1250" y="375">RoleDTO</text>
+   <line id="svg_143" stroke="#e91e63" x1="1150" x2="1350" y1="385" y2="385"/>
+   <text font-family="Arial" font-size="12" id="svg_144" x="1160" y="405">+ id: int</text>
+   <text font-family="Arial" font-size="12" id="svg_145" x="1160" y="420">+ name: string</text>
+   <text font-family="Arial" font-size="12" id="svg_146" x="1160" y="435">+ description: string</text>
+   <text font-family="Arial" font-size="12" id="svg_147" x="1160" y="450">+ permissions: List&lt;string&gt;</text>
+  </g>
+  <line id="svg_148" marker-end="url(#arrow)" stroke="#333" stroke-dasharray="5,5" stroke-width="2" x1="190" x2="190" y1="260" y2="300"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_149" x="200" y="280">implements</text>
+  <line id="svg_150" marker-end="url(#diamond)" stroke="#333" stroke-width="2" x1="400" x2="330" y1="250" y2="200"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_151" transform="matrix(1 0 0 1 0 0)" x="357.81" y="193.97">uses</text>
+  <line id="svg_152" marker-end="url(#diamond)" stroke="#333" stroke-width="2" x1="550" x2="550" y1="550" y2="400"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_153" x="560" y="475">uses</text>
+  <line id="svg_154" marker-end="url(#arrow)" stroke="#333" stroke-width="2" transform="matrix(1 0 0 1 0 0)" x1="904.38" x2="864.38" y1="350" y2="260"/>
+  <line id="svg_185" marker-end="url(#arrow)" stroke="#333" stroke-width="2" x1="1079.73" x2="1297.26" y1="347.95" y2="292.88"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_155" transform="matrix(1 0 0 1 0 0)" x="931.92" y="303.63">creates</text>
+  <line id="svg_156" marker-end="url(#arrow)" stroke="#333" stroke-width="2" x1="1076.7" x2="1134.92" y1="349.73" y2="283.56"/>
+  <line id="svg_157" marker-end="url(#arrow)" stroke="#333" stroke-width="2" transform="matrix(1 0 0 1 0 0)" x1="1084.38" x2="1145.89" y1="419.04" y2="389.59"/>
+  <line id="svg_158" marker-end="url(#diamond)" stroke="#333" stroke-width="2" x1="720" x2="800" y1="350" y2="400"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_159" transform="matrix(1 0 0 1 0 0)" x="751.37" y="345.34">uses</text>
+  <line id="svg_160" marker-end="url(#diamond)" stroke="#333" stroke-width="2" x1="160" x2="160" y1="460" y2="500"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_161" x="170" y="480">manages</text>
+  <line id="svg_162" marker-end="url(#diamond)" stroke="#333" stroke-width="2" transform="matrix(1 0 0 1 0 0)" x1="1080" x2="1148.63" y1="580" y2="437.4"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_163" transform="matrix(1 0 0 1 0 0)" x="1127.4" y="527.88">uses</text>
+  <g id="svg_164" transform="translate(50, 750)">
+   <rect fill="white" height="180" id="svg_165" rx="5" stroke="#ccc" width="400"/>
+   <text font-family="Arial" font-size="14" font-weight="bold" id="svg_166" text-anchor="middle" x="200" y="20">Легенда</text>
+   <line id="svg_167" marker-end="url(#arrow)" stroke="#333" stroke-dasharray="5,5" stroke-width="2" x1="20" x2="50" y1="40" y2="40"/>
+   <text font-family="Arial" font-size="12" id="svg_168" x="60" y="44">implements (реализует интерфейс)</text>
+   <line id="svg_169" marker-end="url(#diamond)" stroke="#333" stroke-width="2" x1="20" x2="50" y1="60" y2="60"/>
+   <text font-family="Arial" font-size="12" id="svg_170" x="60" y="64">uses/dependency (использует)</text>
+   <line id="svg_171" marker-end="url(#arrow)" stroke="#333" stroke-width="2" x1="20" x2="50" y1="80" y2="80"/>
+   <text font-family="Arial" font-size="12" id="svg_172" x="60" y="84">creates (создает)</text>
+   <rect fill="#e3f2fd" height="15" id="svg_173" stroke="#2196f3" width="30" x="15" y="100"/>
+   <text font-family="Arial" font-size="12" id="svg_174" x="55" y="112">Repository Layer</text>
+   <rect fill="#fff3e0" height="15" id="svg_175" stroke="#ff9800" width="30" x="15" y="120"/>
+   <text font-family="Arial" font-size="12" id="svg_176" x="55" y="132">Service Layer</text>
+   <rect fill="#fce4ec" height="15" id="svg_177" stroke="#e91e63" width="30" x="15" y="140"/>
+   <text font-family="Arial" font-size="12" id="svg_178" x="55" y="152">DTO Classes</text>
+   <rect fill="#e8f5e8" height="15" id="svg_179" stroke="#4caf50" width="30" x="200" y="100"/>
+   <text font-family="Arial" font-size="12" id="svg_180" x="240" y="112">Factory</text>
+   <rect fill="#f3e5f5" height="15" id="svg_181" stroke="#9c27b0" width="30" x="200" y="120"/>
+   <text font-family="Arial" font-size="12" id="svg_182" x="240" y="132">Router/Controller</text>
+   <rect fill="#eceff1" height="15" id="svg_183" stroke="#607d8b" width="30" x="200" y="140"/>
+   <text font-family="Arial" font-size="12" id="svg_184" x="240" y="152">Domain Entity</text>
+  </g>
+ </g>
+</svg>

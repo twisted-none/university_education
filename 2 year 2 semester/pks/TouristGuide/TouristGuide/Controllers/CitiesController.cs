@@ -19,21 +19,17 @@ namespace TouristGuide.Controllers
         // GET: Cities (Главная страница со списком городов и поиском)
         public async Task<IActionResult> Index(string searchString)
         {
-            // Запрос к городам
+
             var citiesQuery = from c in _context.Cities
                               select c;
 
-            // Фильтрация по поисковой строке
             if (!string.IsNullOrEmpty(searchString))
             {
-                // Регистронезависимый поиск по названию
                 citiesQuery = citiesQuery.Where(c => c.Name.ToUpper().Contains(searchString.ToUpper()));
             }
 
-            // Сохраняем строку поиска для отображения в View
             ViewData["CurrentFilter"] = searchString;
 
-            // Выполняем запрос асинхронно и передаем результат в View
             var cities = await citiesQuery.OrderBy(c => c.Name).ToListAsync();
             return View(cities);
         }
@@ -43,22 +39,20 @@ namespace TouristGuide.Controllers
         {
             if (id == null)
             {
-                return NotFound(); // Ошибка 404, если ID не передан
+                return NotFound();
             }
 
-            // Находим город по ID, включая связанные достопримечательности
             var city = await _context.Cities
-                .Include(c => c.Attractions) // Загружаем связанные достопримечательности
+                .Include(c => c.Attractions)
                 .FirstOrDefaultAsync(m => m.Id == id);
 
             if (city == null)
             {
-                return NotFound(); // Ошибка 404, если город не найден
+                return NotFound();
             }
 
-            return View(city); // Передаем найденный город в View
+            return View(city);
         }
 
-        // Здесь можно добавить методы Create, Edit, Delete, если нужна админка
     }
 }

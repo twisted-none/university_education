@@ -1,1 +1,89 @@
-<svg width="1000" height="720" xmlns="http://www.w3.org/2000/svg"><g class="layer"><text font-size="22" font-weight="bold" text-anchor="middle" x="500" y="30">ER-диаграмма базы данных (нотация Crow's Foot)</text><rect fill="#E3F2FD" height="160" rx="5" ry="5" stroke="#1976D2" stroke-width="2" width="250" x="50" y="80"/><rect fill="#1976D2" height="30" rx="5" ry="5" stroke="#1976D2" stroke-width="2" width="250" x="50" y="80"/><text fill="#fff" font-size="16" font-weight="bold" text-anchor="middle" x="175" y="100">Teams</text><text font-size="14" x="70" y="130">PK team_id: INT</text><text font-size="14" x="70" y="155">name: VARCHAR(100)</text><text font-size="14" x="70" y="180">city: VARCHAR(100)</text><text font-size="14" x="70" y="205">coach: VARCHAR(100)</text><text font-size="14" x="70" y="230">last_season_place: INT</text><rect fill="#E8F5E9" height="208.87" rx="5" ry="5" stroke="#388E3C" stroke-width="2" width="250" x="400" y="65.11"/><rect fill="#388E3C" height="30" rx="5" ry="5" stroke="#388E3C" stroke-width="2" width="250" x="401.42" y="67.23"/><text fill="#fff" font-size="16" font-weight="bold" text-anchor="middle" x="524.29" y="86.52">Players</text><text font-size="14" x="420" y="117.94">PK player_id: INT</text><text font-size="14" x="422.84" y="140.82">FK team_id: INT</text><text font-size="14" x="418.58" y="162.98">first_name: VARCHAR(50)</text><text font-size="14" x="417.87" y="187.98">last_name: VARCHAR(50)</text><text font-size="14" x="420" y="211.56">age: INT</text><text font-size="14" x="420" y="236.56">jersey_number: INT</text><text font-size="14" transform="translate(0 -18.44)" x="420" y="280">position: VARCHAR(50)</text><rect fill="#FFF3E0" height="140" rx="5" ry="5" stroke="#E65100" stroke-width="2" width="250" x="50" y="320"/><rect fill="#E65100" height="30" rx="5" ry="5" stroke="#E65100" stroke-width="2" width="250" x="50" y="320"/><text fill="#fff" font-size="16" font-weight="bold" text-anchor="middle" x="175" y="340">Stadiums</text><text font-size="14" x="70" y="370">PK stadium_id: INT</text><text font-size="14" x="70" y="395">name: VARCHAR(100)</text><text font-size="14" x="70" y="420">city: VARCHAR(100)</text><text font-size="14" x="70" y="445">capacity: INT</text><rect fill="#E1F5FE" height="234.68" rx="5" ry="5" stroke="#0288D1" stroke-width="2" width="250" x="400" y="320"/><rect fill="#0288D1" height="30" rx="5" ry="5" stroke="#0288D1" stroke-width="2" width="250" x="400" y="320"/><text fill="#fff" font-size="16" font-weight="bold" text-anchor="middle" x="525" y="340">Matches</text><text font-size="14" x="420" y="370">PK match_id: INT</text><text font-size="14" x="420" y="395">date: DATE</text><text font-size="14" x="420" y="420">FK home_team_id: INT</text><text font-size="14" x="420" y="445">FK away_team_id: INT</text><text font-size="14" x="420" y="470">FK stadium_id: INT</text><text font-size="14" x="420" y="495">home_goals: INT</text><text font-size="14" x="420" y="520">away_goals: INT</text><text font-size="14" x="420" y="545">status: VARCHAR(20)</text><rect fill="#F3E5F5" height="140" rx="5" ry="5" stroke="#7B1FA2" stroke-width="2" width="250" x="720" y="320"/><rect fill="#7B1FA2" height="30" rx="5" ry="5" stroke="#7B1FA2" stroke-width="2" width="250" x="720" y="320"/><text fill="#fff" font-size="16" font-weight="bold" text-anchor="middle" x="845" y="340">Tickets</text><text font-size="14" x="740" y="370">PK ticket_id: INT</text><text font-size="14" x="740" y="395">FK match_id: INT</text><text font-size="14" x="740" y="420">category: VARCHAR(20)</text><text font-size="14" x="740" y="445">price: DECIMAL(10,2)</text><rect fill="#FFEBEE" height="185" rx="5" ry="5" stroke="#C62828" stroke-width="2" width="250" x="720" y="80"/><rect fill="#C62828" height="30" rx="5" ry="5" stroke="#C62828" stroke-width="2" width="250" x="720" y="80"/><text fill="#fff" font-size="16" font-weight="bold" text-anchor="middle" x="845" y="100">Users</text><text font-size="14" x="740" y="130">PK user_id: INT</text><text font-size="14" x="740" y="155">username: VARCHAR(50)</text><text font-size="14" x="740" y="180">password_hash: VARCHAR(255)</text><text font-size="14" x="740" y="205">role: VARCHAR(20)</text><text font-size="14" x="740" y="230">email: VARCHAR(100)</text><text font-size="14" x="740" y="255">role_id: INT</text><rect fill="#ECEFF1" height="205.81" rx="5" ry="5" stroke="#455A64" stroke-width="2" width="250" x="50" y="490"/><rect fill="#455A64" height="30" rx="5" ry="5" stroke="#455A64" stroke-width="2" width="250" x="50" y="490"/><text fill="#fff" font-size="16" font-weight="bold" text-anchor="middle" x="175" y="510">Audit_Log</text><text font-size="14" x="70" y="540">PK log_id: INT</text><text font-size="14" x="70" y="565">FK user_id: INT</text><text font-size="14" x="70" y="590">action: VARCHAR(100)</text><text font-size="14" x="70" y="615">entity_type: VARCHAR(50)</text><text font-size="14" x="70" y="640">entity_id: INT</text><text font-size="14" x="70" y="665">timestamp: TIMESTAMP</text><text font-size="14" x="70" y="690">details: TEXT</text><path d="M300 155h100M390 145l10 10-10 10" fill="none" stroke="#000" stroke-width="2"/><path d="M310 145v20M305 150v10" stroke="#000" stroke-width="2"/><path d="M175 240v40h175v140h50" fill="none" stroke="#000" stroke-width="2"/><path d="m390 410 10 10-10 10" fill="none" stroke="#000" stroke-width="2"/><path d="M165 240h20M170 235h10" stroke="#000" stroke-width="2"/><path d="M200 240v60h170v145h30" fill="none" stroke="#000" stroke-width="2"/><path d="m390 435 10 10-10 10" fill="none" stroke="#000" stroke-width="2"/><path d="M190 240h20M195 235h10" stroke="#000" stroke-width="2"/><path d="M300 390h100M390 380l10 10-10 10" fill="none" stroke="#000" stroke-width="2"/><path d="M310 380v20M305 385v10" stroke="#000" stroke-width="2"/><path d="M650 390h70M710 380l10 10-10 10" fill="none" stroke="#000" stroke-width="2"/><path d="M660 380v20M655 385v10" stroke="#000" stroke-width="2"/><path d="M720 160h-40v120H30v285h20" fill="none" stroke="#000" stroke-width="2"/><path d="m60 555-10 10 10 10" fill="none" stroke="#000" stroke-width="2"/><path d="M720 150v20M715 155v10" stroke="#000" stroke-width="2"/></g></svg>
+<svg width="1000" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <text font-size="22" font-weight="bold" id="svg_1" text-anchor="middle" x="500" y="30">ER-диаграмма базы данных (нотация Crow&#x27;s Foot)</text>
+  <rect fill="#E3F2FD" height="160" id="svg_2" rx="5" ry="5" stroke="#1976D2" stroke-width="2" width="250" x="50" y="80"/>
+  <rect fill="#1976D2" height="30" id="svg_3" rx="5" ry="5" stroke="#1976D2" stroke-width="2" width="250" x="50" y="80"/>
+  <text fill="#fff" font-size="16" font-weight="bold" id="svg_4" text-anchor="middle" x="175" y="100">Teams</text>
+  <text font-size="14" id="svg_5" x="70" y="130">PK team_id: INT</text>
+  <text font-size="14" id="svg_6" x="70" y="155">name: VARCHAR(100)</text>
+  <text font-size="14" id="svg_7" x="70" y="180">city: VARCHAR(100)</text>
+  <text font-size="14" id="svg_8" x="70" y="205">coach: VARCHAR(100)</text>
+  <text font-size="14" id="svg_9" x="70" y="230">last_season_place: INT</text>
+  <rect fill="#E8F5E9" height="208.87" id="svg_10" rx="5" ry="5" stroke="#388E3C" stroke-width="2" width="250" x="400" y="65.11"/>
+  <rect fill="#388E3C" height="30" id="svg_11" rx="5" ry="5" stroke="#388E3C" stroke-width="2" width="250" x="401.42" y="67.23"/>
+  <text fill="#fff" font-size="16" font-weight="bold" id="svg_12" text-anchor="middle" x="524.29" y="86.52">Players</text>
+  <text font-size="14" id="svg_13" x="420" y="117.94">PK player_id: INT</text>
+  <text font-size="14" id="svg_14" x="422.84" y="140.82">FK team_id: INT</text>
+  <text font-size="14" id="svg_15" x="418.58" y="162.98">first_name: VARCHAR(50)</text>
+  <text font-size="14" id="svg_16" x="417.87" y="187.98">last_name: VARCHAR(50)</text>
+  <text font-size="14" id="svg_17" x="420" y="211.56">age: INT</text>
+  <text font-size="14" id="svg_18" x="420" y="236.56">jersey_number: INT</text>
+  <text font-size="14" id="svg_19" transform="translate(0 -18.44)" x="420" y="280">position: VARCHAR(50)</text>
+  <rect fill="#FFF3E0" height="140" id="svg_20" rx="5" ry="5" stroke="#E65100" stroke-width="2" width="250" x="50" y="320"/>
+  <rect fill="#E65100" height="30" id="svg_21" rx="5" ry="5" stroke="#E65100" stroke-width="2" width="250" x="50" y="320"/>
+  <text fill="#fff" font-size="16" font-weight="bold" id="svg_22" text-anchor="middle" x="175" y="340">Stadiums</text>
+  <text font-size="14" id="svg_23" x="70" y="370">PK stadium_id: INT</text>
+  <text font-size="14" id="svg_24" x="70" y="395">name: VARCHAR(100)</text>
+  <text font-size="14" id="svg_25" x="70" y="420">city: VARCHAR(100)</text>
+  <text font-size="14" id="svg_26" x="70" y="445">capacity: INT</text>
+  <rect fill="#E1F5FE" height="234.68" id="svg_27" rx="5" ry="5" stroke="#0288D1" stroke-width="2" width="250" x="400" y="320"/>
+  <rect fill="#0288D1" height="30" id="svg_28" rx="5" ry="5" stroke="#0288D1" stroke-width="2" width="250" x="400" y="320"/>
+  <text fill="#fff" font-size="16" font-weight="bold" id="svg_29" text-anchor="middle" x="525" y="340">Matches</text>
+  <text font-size="14" id="svg_30" x="420" y="370">PK match_id: INT</text>
+  <text font-size="14" id="svg_31" x="420" y="395">date: DATE</text>
+  <text font-size="14" id="svg_32" x="420" y="420">FK home_team_id: INT</text>
+  <text font-size="14" id="svg_33" x="420" y="445">FK away_team_id: INT</text>
+  <text font-size="14" id="svg_34" x="420" y="470">FK stadium_id: INT</text>
+  <text font-size="14" id="svg_35" x="420" y="495">home_goals: INT</text>
+  <text font-size="14" id="svg_36" x="420" y="520">away_goals: INT</text>
+  <text font-size="14" id="svg_37" x="420" y="545">status: VARCHAR(20)</text>
+  <rect fill="#F3E5F5" height="140" id="svg_38" rx="5" ry="5" stroke="#7B1FA2" stroke-width="2" width="250" x="699.51" y="320"/>
+  <rect fill="#7B1FA2" height="30" id="svg_39" rx="5" ry="5" stroke="#7B1FA2" stroke-width="2" transform="matrix(1 0 0 1 0 0)" width="250" x="699.51" y="320"/>
+  <text fill="#fff" font-size="16" font-weight="bold" id="svg_40" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="824.51" y="340">Tickets</text>
+  <text font-size="14" id="svg_41" transform="matrix(1 0 0 1 0 0)" x="719.51" y="370">PK ticket_id: INT</text>
+  <text font-size="14" id="svg_42" transform="matrix(1 0 0 1 0 0)" x="719.51" y="395">FK match_id: INT</text>
+  <text font-size="14" id="svg_43" transform="matrix(1 0 0 1 0 0)" x="719.51" y="420">category: VARCHAR(20)</text>
+  <text font-size="14" id="svg_44" transform="matrix(1 0 0 1 0 0)" x="719.51" y="445">price: DECIMAL(10,2)</text>
+  <rect fill="#FFEBEE" height="185" id="svg_45" rx="5" ry="5" stroke="#C62828" stroke-width="2" width="250" x="720" y="80"/>
+  <rect fill="#C62828" height="30" id="svg_46" rx="5" ry="5" stroke="#C62828" stroke-width="2" width="250" x="720" y="80"/>
+  <text fill="#fff" font-size="16" font-weight="bold" id="svg_47" text-anchor="middle" x="845" y="100">Users</text>
+  <text font-size="14" id="svg_48" x="740" y="130">PK user_id: INT</text>
+  <text font-size="14" id="svg_49" x="740" y="155">username: VARCHAR(50)</text>
+  <text font-size="14" id="svg_50" x="740" y="180">password_hash: VARCHAR(255)</text>
+  <text font-size="14" id="svg_51" x="740" y="205">role: VARCHAR(20)</text>
+  <text font-size="14" id="svg_52" x="740" y="230">email: VARCHAR(100)</text>
+  <text font-size="14" id="svg_53" transform="matrix(1 0 0 1 0 0)" x="740" y="255">FK role_name: VARCHAR(20)</text>
+  <rect fill="#ECEFF1" height="205.81" id="svg_54" rx="5" ry="5" stroke="#455A64" stroke-width="2" width="250" x="50" y="490"/>
+  <rect fill="#455A64" height="30" id="svg_55" rx="5" ry="5" stroke="#455A64" stroke-width="2" width="250" x="50" y="490"/>
+  <text fill="#fff" font-size="16" font-weight="bold" id="svg_56" text-anchor="middle" x="175" y="510">Audit_Log</text>
+  <text font-size="14" id="svg_57" x="70" y="540">PK log_id: INT</text>
+  <text font-size="14" id="svg_58" x="70" y="565">FK user_id: INT</text>
+  <text font-size="14" id="svg_59" x="70" y="590">action: VARCHAR(100)</text>
+  <text font-size="14" id="svg_60" x="70" y="615">entity_type: VARCHAR(50)</text>
+  <text font-size="14" id="svg_61" x="70" y="640">entity_id: INT</text>
+  <text font-size="14" id="svg_62" x="70" y="665">timestamp: TIMESTAMP</text>
+  <text font-size="14" id="svg_63" x="70" y="690">details: TEXT</text>
+  <path d="m300,155l100,0m-10,-10l10,10l-10,10" fill="none" id="svg_64" stroke="#000" stroke-width="2"/>
+  <path d="m310,145l0,20m-5,-15l0,10" id="svg_65" stroke="#000" stroke-width="2"/>
+  <path d="m175,240l0,40l175,0l0,140l50,0" fill="none" id="svg_66" stroke="#000" stroke-width="2"/>
+  <path d="m390,410l10,10l-10,10" fill="none" id="svg_67" stroke="#000" stroke-width="2"/>
+  <path d="m165,240l20,0m-15,-5l10,0" id="svg_68" stroke="#000" stroke-width="2"/>
+  <path d="m200,240l0,60l170,0l0,145l30,0" fill="none" id="svg_69" stroke="#000" stroke-width="2"/>
+  <path d="m390,435l10,10l-10,10" fill="none" id="svg_70" stroke="#000" stroke-width="2"/>
+  <path d="m190,240l20,0m-15,-5l10,0" id="svg_71" stroke="#000" stroke-width="2"/>
+  <path d="m300,390l100,0m-10,-10l10,10l-10,10" fill="none" id="svg_72" stroke="#000" stroke-width="2"/>
+  <path d="m310,380l0,20m-5,-15l0,10" id="svg_73" stroke="#000" stroke-width="2"/>
+  <path d="m650,390l47.87,0m-6.84,-10l6.84,10l-6.84,10" fill="none" id="svg_74" stroke="#000" stroke-width="2" transform="matrix(1 0 0 1 0 0)"/>
+  <path d="m660,380l0,20m-5,-15l0,10" id="svg_75" stroke="#000" stroke-width="2"/>
+  <path d="m721.64,159.18l-40,0l0,120l-650,0l0,285l20,0" fill="none" id="svg_76" stroke="#000" stroke-width="2"/>
+  <path d="m60,555l-10,10l10,10" fill="none" id="svg_77" stroke="#000" stroke-width="2"/>
+  <path d="m720,150l0,20m-5,-15l0,10" id="svg_78" stroke="#000" stroke-width="2"/>
+  <rect fill="#FFEBEE" height="93.2" id="svg_87" rx="5" ry="5" stroke="#C62828" stroke-width="2" width="250" x="737.3" y="488.32"/>
+  <rect fill="#C62828" height="30" id="svg_86" rx="5" ry="5" stroke="#C62828" stroke-width="2" width="250" x="738.11" y="486.68"/>
+  <text fill="#fff" font-size="16" font-weight="bold" id="svg_85" text-anchor="middle" x="863.11" y="508.32">Roles</text>
+  <text font-size="14" id="svg_84" x="757.3" y="538.32">PK role_id: INT</text>
+  <text font-size="14" id="svg_83" x="757.3" y="563.32">FK role_name: VARCHAR(20)</text>
+  <path d="m852.56,371.63l219.71,0m-31.39,-10l31.39,10l-31.39,10" fill="none" id="svg_88" stroke="#000" stroke-width="2" transform="rotate(90, 962.411 371.627)"/>
+  <path d="m981.19,406.89l0,20m-6.64,-15l0,10" id="svg_79" stroke="#000" stroke-width="2" transform="translate(-16.3934 -141.803) rotate(90 977.869 416.885)"/>
+ </g>
+</svg>

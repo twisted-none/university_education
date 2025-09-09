@@ -1,0 +1,43 @@
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.AssemblyInfoInputs.cache
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.AssemblyInfo.cs
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.csproj.CoreCompileInputs.cache
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.exe
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.deps.json
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.runtimeconfig.json
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.dll
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.pdb
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.dll
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\obj\Debug\net8.0\refint\NavigatorServer.dll
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.pdb
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.genruntimeconfig.cache
+C:\Users\aleks\source\repos\NavigatorServer\NavigatorServer\obj\Debug\net8.0\ref\NavigatorServer.dll
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.exe
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.deps.json
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.runtimeconfig.json
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.dll
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.pdb
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.AssemblyInfoInputs.cache
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.AssemblyInfo.cs
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.csproj.CoreCompileInputs.cache
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.dll
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\refint\NavigatorServer.dll
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.pdb
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.genruntimeconfig.cache
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\ref\NavigatorServer.dll
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.exe
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.deps.json
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.runtimeconfig.json
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.dll
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\bin\Debug\net8.0\NavigatorServer.pdb
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.AssemblyInfoInputs.cache
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.AssemblyInfo.cs
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.csproj.CoreCompileInputs.cache
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.sourcelink.json
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.dll
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\refint\NavigatorServer.dll
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.pdb
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\NavigatorServer.genruntimeconfig.cache
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorServer\NavigatorServer\obj\Debug\net8.0\ref\NavigatorServer.dll

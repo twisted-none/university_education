@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NavigatorClient/1.0.0": {
+        "runtime": {
+          "NavigatorClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NavigatorClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -23,9 +23,8 @@ namespace TouristGuide.Controllers
                 return NotFound();
             }
 
-            // Находим достопримечательность по ID, включая связанный город
             var attraction = await _context.Attractions
-                .Include(a => a.City) // Загружаем связанный город
+                .Include(a => a.City)
                 .FirstOrDefaultAsync(m => m.Id == id);
 
             if (attraction == null)
@@ -33,9 +32,8 @@ namespace TouristGuide.Controllers
                 return NotFound();
             }
 
-            return View(attraction); // Передаем найденную достопримечательность в View
+            return View(attraction); 
         }
 
-        // Здесь можно добавить методы Create, Edit, Delete для достопримечательностей
     }
 }

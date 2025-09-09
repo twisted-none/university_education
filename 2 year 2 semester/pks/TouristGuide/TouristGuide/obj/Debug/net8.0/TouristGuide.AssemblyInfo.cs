@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TouristGuide")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7c267e21e6cefff049580598abbdff6c2b3b73a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea9b62437ced0a2caf14f00291c6ebf78bc0a2ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("TouristGuide")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TouristGuide")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

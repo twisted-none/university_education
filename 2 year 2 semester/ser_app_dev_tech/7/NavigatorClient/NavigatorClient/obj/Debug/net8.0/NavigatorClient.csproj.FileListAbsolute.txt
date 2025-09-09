@@ -1,0 +1,43 @@
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.exe
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.deps.json
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.runtimeconfig.json
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.dll
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.pdb
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.AssemblyInfoInputs.cache
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.AssemblyInfo.cs
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.csproj.CoreCompileInputs.cache
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.dll
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\obj\Debug\net8.0\refint\NavigatorClient.dll
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.pdb
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.genruntimeconfig.cache
+C:\Users\aleks\source\repos\NavigatorClient\NavigatorClient\obj\Debug\net8.0\ref\NavigatorClient.dll
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.exe
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.deps.json
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.runtimeconfig.json
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.dll
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.pdb
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.AssemblyInfoInputs.cache
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.AssemblyInfo.cs
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.csproj.CoreCompileInputs.cache
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.dll
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\refint\NavigatorClient.dll
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.pdb
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.genruntimeconfig.cache
+C:\Users\twisted_none\Downloads\Telegram Desktop\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\ref\NavigatorClient.dll
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.exe
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.deps.json
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.runtimeconfig.json
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.dll
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\bin\Debug\net8.0\NavigatorClient.pdb
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.AssemblyInfoInputs.cache
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.AssemblyInfo.cs
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.csproj.CoreCompileInputs.cache
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.sourcelink.json
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.dll
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\refint\NavigatorClient.dll
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.pdb
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\NavigatorClient.genruntimeconfig.cache
+D:\university_education\2 year 2 semester\ser_app_dev_tech\7\NavigatorClient\NavigatorClient\obj\Debug\net8.0\ref\NavigatorClient.dll
