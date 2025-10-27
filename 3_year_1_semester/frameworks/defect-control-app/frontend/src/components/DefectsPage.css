@@ -1,0 +1,317 @@
+@keyframes pulse {
+  0% { opacity: 0.3; }
+  100% { opacity: 0.7; }
+}
+
+/* DefectsPage.css (ИСПРАВЛЕННЫЙ И ПОЛНЫЙ КОД) */
+.defects-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 50%, #0c0c0c 100%);
+  padding: 40px 20px;
+  position: relative;
+  overflow-x: hidden;
+  color: #e0e0e0;
+  z-index: 1;
+}
+
+.defects-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 10% 20%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(255, 119, 198, 0.1) 0%, transparent 50%);
+  animation: pulse 10s ease-in-out infinite alternate;
+  z-index: 0;
+}
+
+.defects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 10;
+  border-bottom: 1px solid rgba(187, 134, 252, 0.2);
+  padding-bottom: 15px;
+}
+
+.defects-header h1 {
+  margin: 0;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* -------------------- СТИЛИ ДЛЯ КНОПОК -------------------- */
+.header-controls {
+  display: flex;
+  gap: 15px;
+}
+
+/* Общие стили для кнопок */
+.btn-primary, .btn-secondary {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  z-index: 10;
+}
+
+/* Стиль для кнопки "Создать Дефект" (PRIMARY) */
+.btn-primary {
+  background-color: #03DAC6;
+  color: #121212;
+  box-shadow: 0 0 8px rgba(3, 218, 198, 0.7);
+}
+
+.btn-primary:hover {
+  background-color: #00F6E8;
+  box-shadow: 0 0 15px rgba(0, 246, 232, 1);
+  transform: translateY(-2px);
+}
+
+/* Стиль для кнопки "Выход" и "Скрыть Форму" (SECONDARY) */
+.btn-secondary {
+  background-color: transparent;
+  color: #BB86FC;
+  border: 2px solid #BB86FC;
+  box-shadow: 0 0 8px rgba(187, 134, 252, 0.5);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(187, 134, 252, 0.1);
+  box-shadow: 0 0 15px rgba(187, 134, 252, 1);
+  transform: translateY(-2px);
+}
+
+/* Стили для формы создания дефекта */
+.create-defect-form {
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid #333;
+  z-index: 10;
+  position: relative;
+}
+
+.create-defect-form h3 {
+  color: #BB86FC;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(187, 134, 252, 0.2);
+  padding-bottom: 10px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.create-defect-form input[type="text"], 
+.create-defect-form textarea,
+.create-defect-form select,
+.create-defect-form input[type="date"] {
+  padding: 12px;
+  border: 1px solid #3a3a3a;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  font-size: 1em;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.create-defect-form input:focus, 
+.create-defect-form textarea:focus,
+.create-defect-form select:focus,
+.create-defect-form input[type="date"]:focus {
+  border-color: #03DAC6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(3, 218, 198, 0.5);
+}
+
+.create-defect-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Стили для списка дефектов */
+.defects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+/* Стили для карточки дефекта */
+.defect-card {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  border-left: 5px solid #BB86FC;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  z-index: 5;
+}
+
+.defect-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(187, 134, 252, 0.2);
+}
+
+.defect-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.defect-title {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.1em;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.defect-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.defect-description-short {
+  color: #a0a0a0;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.defect-footer {
+  margin-top: auto;
+}
+
+.user-info, .date-info {
+  margin-bottom: 8px;
+}
+
+.user-info span, .date-info span {
+  display: block;
+  font-size: 0.9em;
+  color: #c0c0c0;
+}
+
+.user-info strong {
+  color: #BB86FC;
+}
+
+/* Стили для селектов внутри карточки */
+.status-select, .priority-select, .executor-select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #3a3a3a;
+  cursor: pointer;
+  font-size: 0.8em;
+  min-width: 120px;
+}
+
+.status-select:hover, .priority-select:hover, .executor-select:hover {
+  border-color: #03DAC6;
+}
+
+/* Стили для статусов */
+.defect-status, .defect-priority {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-новая {
+  background: linear-gradient(135deg, rgba(255, 187, 0, 0.2), rgba(255, 187, 0, 0.1));
+  color: #ffbb00;
+  border: 1px solid rgba(255, 187, 0, 0.3);
+}
+
+.status-в-работе {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(102, 126, 234, 0.1));
+  color: #667eea;
+  border: 1px solid rgba(102, 126, 234, 0.3);
+}
+
+.status-на-проверке {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(245, 158, 11, 0.1));
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.status-закрыта {
+  background: linear-gradient(135deg, rgba(72, 187, 120, 0.2), rgba(72, 187, 120, 0.1));
+  color: #48bb78;
+  border: 1px solid rgba(72, 187, 120, 0.3);
+}
+
+.status-переоткрыта {
+  background: linear-gradient(135deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.1));
+  color: #ff0000;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+/* Стили для приоритетов */
+.priority-низкий { color: #48bb78; }
+.priority-средний { color: #f59e0b; }
+.priority-высокий { color: #ffbb00; }
+.priority-критический { color: #ff0000; }
+
+/* Сообщения */
+.error-message {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #ff6b6b;
+  border: 1px solid #ff0000;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loading-message {
+  color: #03DAC6;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+.no-defects {
+  color: #a0a0a0;
+  text-align: center;
+  padding: 40px;
+  border: 2px dashed #333;
+  border-radius: 8px;
+  font-size: 1.1em;
+  grid-column: 1 / -1;
+}

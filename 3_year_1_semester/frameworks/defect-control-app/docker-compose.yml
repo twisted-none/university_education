@@ -1,0 +1,54 @@
+# docker-compose.yml (Обновленный)
+
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres_db
+    env_file: ./.env
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  backend:
+    build: ./backend
+    container_name: defect_backend
+    env_file: ./.env
+    ports:
+      - "8000:8000"
+    volumes:
+      # Важно: монтирование /app позволяет --reload работать локально
+      - ./backend:/app 
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+    # --- ИЗМЕНЕНИЕ: Добавляем запуск startup.py перед uvicorn ---
+    # sh -c позволяет выполнить несколько команд последовательно
+    command: sh -c "sleep 5 && python startup.py && uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+
+  frontend:
+    build: ./frontend
+    container_name: defect_frontend
+    env_file: ./.env
+    environment:
+      # Важно: внутри Docker контейнеры общаются по именам сервисов
+      - REACT_APP_API_URL=http://176.108.255.248:8000
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend/src:/app/src
+    depends_on:
+      - backend
+    networks:
+      - app-network
+      
+volumes:
+  postgres_data:
+
+networks:
+  app-network:

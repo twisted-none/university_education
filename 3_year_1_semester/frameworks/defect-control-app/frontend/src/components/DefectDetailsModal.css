@@ -1,0 +1,208 @@
+/* frontend/src/components/DefectDetailsModal.css */
+
+/* --- 1. Основные стили модального окна --- */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Темный полупрозрачный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Поверх всех остальных элементов */
+    padding: 20px;
+}
+
+.modal-content {
+    background-color: #242424;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 800px; /* Ограничиваем ширину */
+    max-height: 90vh; /* Ограничиваем высоту */
+    overflow-y: auto; /* Включаем прокрутку, если содержимое большое */
+    color: #e0e0e0;
+    position: relative;
+    border: 1px solid #333;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close-button:hover {
+    color: #fff;
+}
+
+/* --- 2. Стили деталей дефекта --- */
+
+.modal-content h2 {
+    color: #667eea;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.modal-content h3 {
+    color: #a0aec0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.defect-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.defect-info-grid p {
+    margin: 0;
+    font-size: 0.95em;
+}
+
+.defect-info-grid strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.defect-description {
+    white-space: pre-wrap; /* Сохраняет переносы строк в описании */
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-left: 3px solid #667eea;
+    border-radius: 4px;
+    line-height: 1.6;
+}
+
+/* Используем классы статусов и приоритетов из DefectsPage.css */
+.status-новая, .status-в-работе, .status-на-проверке, .status-закрыта, .status-переоткрыта,
+.priority-низкий, .priority-средний, .priority-высокий, .priority-критический {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+/* --- 3. Стили секции комментариев --- */
+
+.comments-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.comments-list {
+    max-height: 300px; /* Ограничиваем высоту списка комментариев */
+    overflow-y: auto;
+    padding-right: 10px; /* Для отступа от полосы прокрутки */
+    margin-bottom: 20px;
+}
+
+.no-comments {
+    color: #888;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+.comment-item {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 3px solid #667eea;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.comment-author {
+    font-weight: bold;
+    color: #667eea;
+    font-size: 1em;
+}
+
+.comment-date {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.comment-content {
+    margin: 0;
+    white-space: pre-wrap; /* Сохраняет переносы строк */
+    font-size: 0.95em;
+    line-height: 1.4;
+}
+
+/* --- 4. Стили формы добавления комментария --- */
+
+.add-comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background-color: #333;
+    color: #e0e0e0;
+    resize: vertical;
+    min-height: 80px;
+    box-sizing: border-box;
+}
+
+.add-comment-form textarea:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+.btn-secondary {
+    /* Стили кнопки из DefectsPage.css или похожие */
+    background-color: #4a5568; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.btn-secondary:hover {
+    background-color: #2d3748;
+}
+
+/* Адаптивность для узких экранов */
+@media (max-width: 600px) {
+    .modal-content {
+        padding: 20px;
+    }
+    .defect-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
